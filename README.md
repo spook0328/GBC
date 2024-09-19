@@ -1,5 +1,5 @@
 # GBC
-My name is eric
+💁🏻 # My name is Jui Hsin Wong
 - ! : Exclamation mark
 - @ : At sign
 - # : Hash or pound sign
@@ -11,7 +11,9 @@ My name is eric
 - ( : Left parenthesis
 - ) : Right parenthesis
 
+Useful link
+---
 [GitHub Pages](https://pages.github.com/)
 [Google](https://www.google.com/)
 
-😂😍😘😊☺️😘😊😍
+
