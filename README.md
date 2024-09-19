@@ -1,8 +1,9 @@
 # GBC
 💁🏻 # My name is Jui Hsin Wong
+---
 - ! : Exclamation mark
 - @ : At sign
-- # : Hash or pound sign
+- # : Hash
 - $ : Dollar sign
 - % : Percent sign
 - ^ : Caret
