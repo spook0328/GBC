@@ -11,10 +11,21 @@
 - "*" : Asterisk
 - ( : Left parenthesis
 - ) : Right parenthesis
+- ## Keyboard shortcuts
+Shortcuts I frequently use: 
+- Ctrl-C (copy)
+- Ctrl-V (paste)
+- Ctrl-Z (undo)
+- Ctrl-X (Cut)
+- Shortcuts I would like to start using: 
+- Ctrl-A (select all)
+- Win-D (show desktop)
+- Ctrl-Shift V (Only paste the word and the format)
 
 Useful link
 ---
 [GitHub Pages](https://pages.github.com/)
+[GitHub io](https://spook0328.github.io/GBC/)
 [Google](https://www.google.com/)
 ---
 
