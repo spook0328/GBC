@@ -1,31 +1,10 @@
 # GBC
 💁🏻 My name is Jui Hsin Wong
----
-- ! : Exclamation mark
-- @ : At sign
-- "#" : Hash
-- $ : Dollar sign
-- % : Percent sign
-- ^ : Caret
-- & : Ampersand
-- "*" : Asterisk
-- ( : Left parenthesis
-- ) : Right parenthesis
-- ## Keyboard shortcuts
-Shortcuts I frequently use: 
-- Ctrl-C (copy)
-- Ctrl-V (paste)
-- Ctrl-Z (undo)
-- Ctrl-X (Cut)
-- Shortcuts I would like to start using: 
-- Ctrl-A (select all)
-- Win-D (show desktop)
-- Ctrl-Shift V (Only paste the word and the format)
 
 Useful link
 ---
-[GitHub Pages](https://pages.github.com/)
-[GitHub io](https://spook0328.github.io/GBC/)
+[GBC GitHub Pages](https://pages.github.com/)<br>
+[GBC GitHub io](https://spook0328.github.io/GBC/) <br>
 [Google](https://www.google.com/)
 ---
 
@@ -48,3 +27,25 @@ Thu
 
 Fri
 🤌Commn 1001 English
+
+---
+- ! : Exclamation mark
+- @ : At sign
+- "#" : Hash
+- $ : Dollar sign
+- % : Percent sign
+- ^ : Caret
+- & : Ampersand
+- "*" : Asterisk
+- ( : Left parenthesis
+- ) : Right parenthesis
+- ## Keyboard shortcuts
+Shortcuts I frequently use: 
+- Ctrl-C (copy)
+- Ctrl-V (paste)
+- Ctrl-Z (undo)
+- Ctrl-X (Cut)
+- Shortcuts I would like to start using: 
+- Ctrl-A (select all)
+- Win-D (show desktop)
+- Ctrl-Shift V (Only paste the word and the format)
