@@ -1,0 +1,23 @@
+header {
+  font-style: italic;
+  color: aqua;
+}
+
+main,
+li {
+  font-size: 1.5em;
+  #l1 {
+    background-color: antiquewhite;
+  }
+
+  #l2 {
+    background-color: yellowgreen;
+  }
+  #l3 {
+    background-color: blueviolet;
+  }
+}
+
+footer {
+  font-style: solid black 2 piexels;
+}
