@@ -4,16 +4,6 @@ footer {
   margin: 0 1.5em;
 } */
 
-header {
-  border: 2px black dotted;
-  background-image: linear-gradient(to bottom, blue, pink);
-}
-
-h1 {
-  color: darkblue;
-  font-style: italic;
-}
-
 ul:only-of-type li {
   padding: 0.5 em;
   border: solid red 2px;
@@ -25,6 +15,6 @@ ul:only-of-type li {
   border-radius: 30px;
 }
 
-footer {
-  border: solid black 2px;
-}
+/* footer {
+  
+} */
