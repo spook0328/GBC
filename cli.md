@@ -7,7 +7,7 @@ cat：這個命令用來顯示文件的內容。你可以直接輸入文件名�
 mkdir：這個命令用於創建新目錄。你只需要輸入 mkdir new_directory 來創建一個名為 "new_directory" 的新目錄；如果需要創建多層目錄，可以使用 -p 參數，例如 mkdir -p /path/to/new_directory。
 
 rm：這個命令用來刪除文件或目錄。你可以使用 rm filename.txt 刪除單個文件；如果需要遞歸刪除一個目錄及其所有內容，可以使用 rm -r directory_name。
----
+<br>
 ls: This command is used to list all files and folders in the current directory. You can use the -l option to display more detailed information, including file size and modification date. The -a option allows you to show hidden files (those starting with a ".").
 
 cd: This command is used to change directories. You can specify a path to enter that directory, for example, cd /path/to/directory. Using cd .. will take you back to the parent directory, while cd ~ will return you to the user's home directory.
