@@ -6,6 +6,7 @@ Useful link
 [GBC GitHub Pages](https://pages.github.com/)<br>
 [GBC GitHub io](https://spook0328.github.io/GBC/) <br>
 [Google](https://www.google.com/)
+[Linux operating system Commands](/cli.md)
 ---
 
 1️⃣2️⃣3️⃣4️⃣First semster:
