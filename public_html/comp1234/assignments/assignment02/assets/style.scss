@@ -1,0 +1,229 @@
+* {
+  font-family: "Knewave";
+  max-width: 1000px;
+  margin: 0 auto;
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+body {
+  header {
+    img.icon {
+      position: relative;
+      border-radius: 5px;
+      float: left;
+      width: 5%;
+    }
+    h1 {
+      position: absolute;
+      float: left;
+      margin-left: 53px;
+      font-size: 1.5em;
+      width: 20%;
+    }
+    .nav {
+      border-radius: 10px;
+      background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+      float: right;
+      width: 70%;
+      .nav-ul {
+        li {
+          float: left;
+          a {
+            display: flex; //排序
+            margin-top: 10px;
+            margin-right: 30px;
+            list-style: none; //Ul的點
+            color: inherit; //超連結
+            font-size: 1.2rem; //字大小
+            text-decoration: none; //底線
+          }
+        }
+      }
+    }
+    figure {
+      clear: both;
+      img {
+        // z-index: -99;
+        position: relative;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+  main {
+    #details {
+      //border: 2px solid red;
+      border-radius: 15px;
+      padding: 16px;
+      margin: 16px;
+      background-color: rgb(161, 153, 138);
+      p {
+        font-size: 1.5rem;
+      }
+    }
+    #performer {
+      //border: 5px solid blue;
+      padding: 10px;
+      .p1 {
+        //border: 5px solid red;
+        float: left;
+        margin-right: 1%;
+        width: 49%;
+        box-sizing: border-box;
+        img {
+          width: 100%;
+        }
+      }
+      .p2 {
+        //border: 5px solid pink;
+        float: right;
+        width: 49%;
+        box-sizing: border-box;
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    #gallery {
+      padding: 10px;
+      clear: both;
+      //border: 5px solid blue;
+      .g1 {
+        //border: 5px solid blue;
+        // position: relative;
+        float: left;
+        margin-right: 1%;
+        width: 49%;
+        align-items: center;
+        box-sizing: border-box;
+        align-items: center;
+        img {
+          width: 100%;
+        }
+        figcaption {
+          //border: 5px solid blue;
+          position: relative;
+          width: 200px;
+        }
+      }
+      .g2 {
+        float: right;
+        width: 49%;
+        box-sizing: border-box;
+        img {
+          width: 100%;
+        }
+        figcaption {
+          position: relative;
+          width: 200px;
+        }
+      }
+      .g3 {
+        clear: both;
+        padding-top: 1%;
+        width: 80%;
+        img {
+          width: 100%;
+        }
+        figcaption {
+          position: relative;
+          width: 200px;
+        }
+      }
+    }
+    #schedule {
+      clear: both;
+      padding: 10px;
+    }
+    #testimonials {
+      clear: both;
+      padding: 10px;
+      .t1 {
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        border-radius: 10px;
+        padding: 16px;
+        margin: 16px;
+        &::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        img {
+          float: left;
+          margin-right: 20px;
+          border-radius: 50%;
+        }
+        p {
+          font-size: 20px;
+          margin-top: 30px;
+          margin-right: 15px;
+        }
+      }
+      .t2 {
+        background-color: #dcd9d4;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0.5) 0%,
+            rgba(0, 0, 0, 0.5) 100%
+          ),
+          radial-gradient(
+            at 50% 0%,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(0, 0, 0, 0.5) 50%
+          );
+        background-blend-mode: soft-light, screen;
+        border-radius: 10px;
+        padding: 16px;
+        margin: 16px;
+        &::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        img {
+          float: left;
+          margin-right: 20px;
+          border-radius: 50%;
+        }
+        p {
+          font-size: 20px;
+          margin-top: 30px;
+          margin-right: 15px;
+        }
+      }
+      .t3 {
+        background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        border-radius: 10px;
+        padding: 16px;
+        margin: 16px;
+        &::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        img {
+          float: left;
+          margin-right: 20px;
+          border-radius: 50%;
+        }
+        p {
+          font-size: 20px;
+          margin-top: 30px;
+          margin-right: 15px;
+        }
+      }
+    }
+    #location {
+      clear: both;
+      padding: 10px;
+    }
+  }
+}

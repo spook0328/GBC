@@ -1,0 +1,200 @@
+* {
+  font-family: "Knewave";
+  max-width: 1000px;
+  margin: 0 auto;
+}
+* h2 {
+  font-size: 2rem;
+}
+
+body header img.icon {
+  position: relative;
+  border-radius: 5px;
+  float: left;
+  width: 5%;
+}
+body header h1 {
+  position: absolute;
+  float: left;
+  margin-left: 53px;
+  font-size: 1.5em;
+  width: 20%;
+}
+body header .nav {
+  border-radius: 10px;
+  background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+  float: right;
+  width: 70%;
+}
+body header .nav .nav-ul li {
+  float: left;
+}
+body header .nav .nav-ul li a {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 30px;
+  list-style: none;
+  color: inherit;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+body header figure {
+  clear: both;
+}
+body header figure img {
+  position: relative;
+  margin-bottom: 10px;
+}
+body header figure p {
+  font-size: 2.5rem;
+  text-align: center;
+}
+body main #details {
+  border-radius: 15px;
+  padding: 16px;
+  margin: 16px;
+  background-color: rgb(161, 153, 138);
+}
+body main #details p {
+  font-size: 1.5rem;
+}
+body main #performer {
+  padding: 10px;
+}
+body main #performer .p1 {
+  float: left;
+  margin-right: 1%;
+  width: 49%;
+  box-sizing: border-box;
+}
+body main #performer .p1 img {
+  width: 100%;
+}
+body main #performer .p2 {
+  float: right;
+  width: 49%;
+  box-sizing: border-box;
+}
+body main #performer .p2 img {
+  width: 100%;
+}
+body main #gallery {
+  padding: 10px;
+  clear: both;
+}
+body main #gallery .g1 {
+  float: left;
+  margin-right: 1%;
+  width: 49%;
+  align-items: center;
+  box-sizing: border-box;
+  align-items: center;
+}
+body main #gallery .g1 img {
+  width: 100%;
+}
+body main #gallery .g1 figcaption {
+  position: relative;
+  width: 200px;
+}
+body main #gallery .g2 {
+  float: right;
+  width: 49%;
+  box-sizing: border-box;
+}
+body main #gallery .g2 img {
+  width: 100%;
+}
+body main #gallery .g2 figcaption {
+  position: relative;
+  width: 200px;
+}
+body main #gallery .g3 {
+  clear: both;
+  padding-top: 1%;
+  width: 80%;
+}
+body main #gallery .g3 img {
+  width: 100%;
+}
+body main #gallery .g3 figcaption {
+  position: relative;
+  width: 200px;
+}
+body main #schedule {
+  clear: both;
+  padding: 10px;
+}
+body main #testimonials {
+  clear: both;
+  padding: 10px;
+}
+body main #testimonials .t1 {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px;
+}
+body main #testimonials .t1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body main #testimonials .t1 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+body main #testimonials .t1 p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+body main #testimonials .t2 {
+  background-color: #dcd9d4;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), radial-gradient(at 50% 0%, rgba(255, 255, 255, 0.1) 0%, rgba(0, 0, 0, 0.5) 50%);
+  background-blend-mode: soft-light, screen;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px;
+}
+body main #testimonials .t2::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body main #testimonials .t2 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+body main #testimonials .t2 p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+body main #testimonials .t3 {
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px;
+}
+body main #testimonials .t3::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body main #testimonials .t3 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+body main #testimonials .t3 p {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-right: 15px;
+}
+body main #location {
+  clear: both;
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
