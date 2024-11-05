@@ -33,7 +33,7 @@ body {
       border-radius: 10px;
       background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
       float: right;
-      width: 70%;
+      width: 100%;
       .nav-ul {
         li {
           color: black;
@@ -93,7 +93,11 @@ body {
         img {
           width: 100%;
         }
+        &:hover {
+          background-color: rgb(68, 65, 59);
+        }
       }
+
       .p2 {
         //border: 5px solid pink;
         float: right;
@@ -102,16 +106,18 @@ body {
         img {
           width: 100%;
         }
+        &:hover {
+          background-color: rgb(68, 65, 59);
+        }
       }
     }
 
     #gallery {
       padding: 10px;
       clear: both;
+
       //border: 5px solid blue;
       .g1 {
-        //border: 5px solid blue;
-        // position: relative;
         float: left;
         margin-right: 1%;
         width: 49%;
@@ -120,6 +126,10 @@ body {
         align-items: center;
         img {
           width: 100%;
+          // &:hover {
+          //   transform: scale(0.8);
+          //   transition: all 0.2s linear;
+          // }
         }
         figcaption {
           //border: 5px solid blue;
@@ -158,12 +168,34 @@ body {
       padding: 10px;
       border: 5px dotted;
       border-radius: 10px;
-      background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+      background-color: #dcd9d4;
+
+      .s1 {
+        background-color: rgb(214, 135, 135);
+        :hover {
+          background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+        }
+      }
+      .s2 {
+        background-color: rgb(187, 119, 119);
+        :hover {
+          background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+        }
+      }
     }
 
     #testimonials {
       clear: both;
       padding: 10px;
+      img {
+        width: 33%;
+      }
+      h3 {
+        font-size: 25px;
+        font-style: italic;
+        margin-top: 30px;
+        margin-right: 15px;
+      }
       .t1 {
         border: 5px dotted;
         background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
