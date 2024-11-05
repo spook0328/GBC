@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta name="author" content="Eric Wong" />
+  </head>
+  <body>
+    <form
+      action="get"
+      action="https://comp1234.gblearn.com/fall2024/lecture/wk10/where"
+    >
+      <fieldset>
+        <div class="form">
+          <legend>My Form</legend>
+          <br />
+          <label for="fname">Name</label>
+          <!-- //填寫數量限制 -->
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            size="6"
+            maxlength="6"
+            accesskey="k"
+          />
+          <!-- //必須填寫 -->
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Lastname"
+            required
+            accesskey="l"
+          />
+        </div>
+        <br />
+        <div class="radio">
+          <input type="radio" id="visa" name="card" value="visa" />
+          <label for="Visa">visa</label>
+
+          <input type="radio" id="amex" name="card" value="amex" />
+          <label for="amex">amex</label>
+
+          <input type="radio" id="master" name="card" value="master" />
+          <label for="master">master</label>
+        </div>
+        <br />
+        <div class="selection">
+          <select name="course" id="course" size="9">
+            <optgroup label=" 1st Semester">
+              <option value="1234">comp1234</option>
+              <option value="1243">comp1243</option>
+              <option value="4321">comp4321</option>
+            </optgroup>
+            <optgroup label=" 2st Semester">
+              <option value="1234">comp1234</option>
+              <option value="1243">comp1243</option>
+              <option value="4321">comp4321</option>
+            </optgroup>
+            <optgroup label=" 3st Semester">
+              <option value="1234">comp1234</option>
+              <option value="1243">comp1243</option>
+              <option value="4321">comp4321</option>
+            </optgroup>
+            <optgroup label=" 4st Semester">
+              <option value="1234">comp1234</option>
+              <option value="1243">comp1243</option>
+              <option value="4321">comp4321</option>
+            </optgroup>
+          </select>
+        </div>
+        <br />
+        <label for="email">email</label>
+        <input type="email" />
+        <hr />
+
+        <label for="password">password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          pattern="[A-Za-z0-9]{4}"
+        />
+        <hr />
+        <input
+          type="text"
+          name="onlyread"
+          id="onlyread"
+          value="readonly"
+          readonly
+        />
+        <hr />
+        <textarea name="textarea" id="textarea" cols="30" rows="10">
+Example
+        </textarea>
+        <input type="color" name="color" id="color" />
+        <hr />
+        <div>
+          <legend>Button</legend>
+          <input type="submit" />
+          <input type="reset" />
+          <button type="submit">subbmit use from button</button>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
