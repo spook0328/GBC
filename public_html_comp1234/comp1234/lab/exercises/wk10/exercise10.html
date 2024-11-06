@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Week 10 lab exercise" />
+    <meta name="keywords" content="HTML, JuiHsin, Wk10, Georgebrown" />
+    <meta name="author" content="JuiHsin Wong" />
+    <title>
+      Basic HTML Web and CSS Page for the week 10 Comp1234 lab exercise
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yatra+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/lab/exercises/wk04/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+
+  <body>
+    <main>
+      <form action="get">
+        <fieldset>
+          <legend>Comment Form</legend>
+
+          <div class="box">
+            <label for="fname">Your name: <span>*</span></label>
+            <br />
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="First"
+              required
+            /><input
+              type="text"
+              id="lname"
+              name="lname"
+              placeholder="Last"
+              required
+            />
+          </div>
+          <div class="email">
+            <label for="email">Email<span>*</span></label>
+            <br />
+            <input type="email" id="email" width="200%" required />
+          </div>
+
+          <div class="selection">
+            <label for="subject of comment">subject of comment:</label>
+            <br />
+            <select name="soc" id="soc">
+              <option value="pro">problem</option>
+              <option value="com">comment</option>
+              <option value="gen">general question</option>
+            </select>
+          </div>
+          <div class="comment">
+            <label for="Comment">Comments:<span>*</span></label
+            ><br />
+            <textarea name="comment" id="comment" required></textarea>
+          </div>
+          <button type="submit">submit</button>
+        </fieldset>
+      </form>
+    </main>
+
+    <footer>
+      <!-- <p>&copy; JuiHsin Wong</p> -->
+      <script src=https://my.gblearn.com/js/loadscript.js></script>
+    </footer>
+
+    <br />
+  </body>
+</html>

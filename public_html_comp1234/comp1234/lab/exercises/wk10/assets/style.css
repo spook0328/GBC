@@ -1,0 +1,59 @@
+form {
+  float: right;
+  width: 650px;
+  margin: 0 auto;
+}
+
+fieldset {
+  padding: 50px;
+}
+
+legend {
+  font-size: larger;
+}
+
+label {
+  margin: 10px;
+  font-weight: bold;
+}
+
+#fname {
+  width: 40%;
+  margin-left: 10px;
+  height: 30px;
+}
+#lname {
+  width: 40%;
+  height: 30px;
+}
+
+.email {
+  clear: both;
+}
+
+select {
+  background-color: rgb(172, 171, 171);
+  margin: 10px;
+  width: 83%;
+  height: 30px;
+}
+
+[type="email"],
+textarea {
+  margin: 10px;
+  width: 81%;
+  height: 30px;
+}
+
+span {
+  color: red;
+}
+
+button {
+  color: white;
+  background-color: purple;
+}
+
+footer {
+  clear: both;
+}
