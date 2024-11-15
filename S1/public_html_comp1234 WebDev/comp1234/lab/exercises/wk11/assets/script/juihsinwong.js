@@ -14,7 +14,6 @@ let total = "Total";
 document.write("<h2>" + total + ":" + " </h2>");
 document.write("<p>" + name + p + sum + " </p>");
 
-console.log();
 // let Name = "JuiHsin Wong";
 
 // let h2 = "Total";
