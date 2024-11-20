@@ -17,7 +17,12 @@ if (operation == 1) {
 } else if (operation == 3) {
   total = num1 * num2;
   document.write("<h3>" + num1 + " * " + num2 + " = " + total + "</h3>");
-} else {
+} else if (operation == 4) {
   total = num1 / num2;
   document.write("<h3>" + num1 + " / " + num2 + " = " + total + "</h3>");
+} else {
+  document.write("<h3>" + "This is a undefind operation" + "</h3>");
+  setTimeout(function () {
+    location.reload();
+  }, 3000);
 }
