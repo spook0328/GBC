@@ -1,12 +1,23 @@
+# Let client customer add text.
+text_input(){
+        read -p "Enter what is the start value? " startNum ;
+        read -p "Enter How many times you want to process? " count;
+        read -p "What number do you want to factor the result? " x;
+}
+
 # Equal function check the number greater than 0
 equal(){
     if [[ $startNum -gt 0 && $count -gt 0 && $x -gt 0 ]];
     then
         num=$startNum;
         y=0;
+	return 0 # check postive
     else
         echo "There are number not postive."
-        exit
+	echo "System will restart at 3 Sec. "
+	sleep 3 # delay 3sec
+	clear # clear the code
+	return 1 # check not postive
     fi
 }
 
@@ -28,18 +39,21 @@ factor(){
     if [[ $remaind -eq 0 ]];
     then
         echo "The remaind of $solution % $x = $remaind."
-        echo "solution is a factor of x."
+        echo "$solution is a factor of $x."
     else
         echo "The remaind of $solution % $x = $remaind."
-        echo "solution is not a factor of x."
+        echo "$solution is not a factor of $x."
     fi
     echo "-------------------"
 }
-# Text let client customer add.
-read -p "Enter what is the start value? " startNum ;
-read -p "Enter How many times you want to process? " count;
-read -p "What number do you want to factor the result? " x;
 
 # processing
-equal
-process_count
+while true; do
+	text_input
+	equal
+	if [ $? -eq 0 ]
+	then
+	    process_count
+	    break
+	fi
+done
