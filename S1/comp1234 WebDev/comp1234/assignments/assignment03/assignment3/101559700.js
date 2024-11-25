@@ -1,57 +1,82 @@
-function part1(){
-    // Start your code here for first part. There is no need to return any value.
-    
-    
+function part1() {
+  // Start your code here for first part. There is no need to return any value.
+  function encoded(text) {
+    text = text.toString();
+    let result = "";
+
+    for (let i = 0; i < text.length; i++) {
+      let charCode = text.charCodeAt(i);
+      result += String.fromCharCode(charCode + 1);
+    }
+    return result;
+  }
+
+  document.write(`
+      <div style="
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 10px;
+    ">
+    <b>Student ID :</b> 101559700 <b>Full name:</b> Jui-Hsin Wong <br>
+    <b>Professor's name:</b> Professor Leonard <b>Lab session day:</b> Wednesday
+    <br><br>
+    <b>Encoded Student ID :</b> ${encoded(
+      101559700
+    )} ; <b>Encoded Full name:</b> ${encoded("JuiHsinWong")}  <br>
+    <b>Encoded Professor's name:</b> ${encoded(
+      "ProfessorLeonard"
+    )}  ; <b>Encoded Lab session day:</b> ${encoded("Wednesday")} 
+    </div>
+  `);
 }
 
 function part2(num1, num2) {
-    // Assign the return value to a variable named _return
-    let _return = '';
-    // Your code should start here
-   
-  
-    /* Your code ends here.
+  // Assign the return value to a variable named _return
+  let _return = "";
+  // Your code should start here
+  num1 = 5;
+  num2 = -3;
+  if (num1 < num2) {
+    _return = -1;
+  } else if (num1 > num2) {
+    _return = 1;
+  } else {
+    let num1 = 0;
+    let num2 = 0;
+    _return = 0;
+  }
+  /* Your code ends here.
        Don't add or change anything after this line.*/
-    return _return;
+  return _return;
 }
-
 
 function part3(startNum, endNum) {
-    // Assign the return value to a variable named _return
-    let _return = '';
-    // To hold the sum of numbers for the divisibility condition
-    
+  // Assign the return value to a variable named _return
+  let _return = "";
+  // To hold the sum of numbers for the divisibility condition
 
-
-    /* Your code ends here.
+  /* Your code ends here.
        Don't add or change anything after this line.*/
-       return _return;      
+  return _return;
 }
-
-
-
 
 function part4(array_index, array) {
-    // Assign the return value to a variable named _return
-    let _return = '';
-    // Your code should start here
+  // Assign the return value to a variable named _return
+  let _return = "";
+  // Your code should start here
 
-
-    /* Your code ends here.
+  /* Your code ends here.
        Don't add or change anything after this line.*/
-    return _return;
+  return _return;
 }
-
 
 function part5(array) {
-    // Assign the return value to a variable named _return
-    let _return = '';
-    // Your code should start here
+  // Assign the return value to a variable named _return
+  let _return = "";
+  // Your code should start here
 
-  
-    /* Your code ends here.
+  /* Your code ends here.
        Don't add or change anything after this line.*/
-    return _return;
+  return _return;
 }
-
-
