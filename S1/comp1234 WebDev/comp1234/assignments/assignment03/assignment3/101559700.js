@@ -35,15 +35,15 @@ function part2(num1, num2) {
   // Assign the return value to a variable named _return
   let _return = "";
   // Your code should start here
-  num1 = 5;
-  num2 = -3;
-  if (num1 < num2) {
-    _return = -1;
-  } else if (num1 > num2) {
+  //twist
+  num1 += 5;
+  num2 -= 3;
+
+  if (num1 > num2) {
     _return = 1;
+  } else if (num1 < num2) {
+    _return = -1;
   } else {
-    let num1 = 0;
-    let num2 = 0;
     _return = 0;
   }
   /* Your code ends here.
@@ -55,6 +55,25 @@ function part3(startNum, endNum) {
   // Assign the return value to a variable named _return
   let _return = "";
   // To hold the sum of numbers for the divisibility condition
+  num1 = 0;
+  num2 = 0;
+  num3 = num1 + num2;
+  let sum = num3 / 3;
+  if ((sum = 0)) {
+    _return = "MAGIC" + sum;
+  } else {
+    if (num1 < num2) {
+      for (i = num1; i < num2; i++) {
+        _return = i;
+      }
+    } else if (num1 > num2) {
+      for (i = num2; i < num1; i++) {
+        _return = i;
+      }
+    } else if ((num1 = num2)) {
+      _return = num1 + num2;
+    }
+  }
 
   /* Your code ends here.
        Don't add or change anything after this line.*/
