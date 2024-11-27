@@ -55,26 +55,28 @@ function part3(startNum, endNum) {
   // Assign the return value to a variable named _return
   let _return = "";
   // To hold the sum of numbers for the divisibility condition
-  num1 = 0;
-  num2 = 0;
-  num3 = num1 + num2;
-  let sum = num3 / 3;
-  if ((sum = 0)) {
-    _return = "MAGIC" + sum;
-  } else {
-    if (num1 < num2) {
-      for (i = num1; i < num2; i++) {
-        _return = i;
-      }
-    } else if (num1 > num2) {
-      for (i = num2; i < num1; i++) {
-        _return = i;
-      }
-    } else if ((num1 = num2)) {
-      _return = num1 + num2;
+  let sum = 0;
+  if (startNum < endNum) {
+    for (let i = startNum; i <= endNum; i++) {
+      sum += i;
+      _return += i;
     }
+    // console.log(sum);
+  } else if (startNum > endNum) {
+    for (let i = startNum; i >= endNum; i--) {
+      sum += i;
+      _return += i;
+    }
+    // console.log(sum);
+  } else {
+    _return = (startNum + endNum).toString();
+    sum = startNum + endNum;
   }
 
+  if (sum % 3 == 0) {
+    _return = "Magic" + _return;
+  }
+  console.log(_return);
   /* Your code ends here.
        Don't add or change anything after this line.*/
   return _return;
