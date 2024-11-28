@@ -1,5 +1,11 @@
 function part1() {
   // Start your code here for first part. There is no need to return any value.
+  StudentID = "101559700";
+  FullName = " Jui-HsinWong";
+  LabProfessor = "Professor Leonard";
+  LabSessionDay = "Wednesday";
+  Semester = "1";
+
   function encoded(text) {
     text = text.toString();
     let result = "";
@@ -18,15 +24,15 @@ function part1() {
           right: 10px;
           padding: 10px;
       ">
-      <b>Student ID :</b> 101559700 <b>Full name:</b> Jui-Hsin Wong <br>
-      <b>Professor's name:</b> Professor Leonard <b>Lab session day:</b> Wednesday
+      <b>Student ID :</b> ${StudentID} <b>Full name:</b> ${FullName}<br>
+      <b>Professor's name:</b> ${LabProfessor}<b>Lab session day:</b>${LabSessionDay}
       <br><br>
       <b>Encoded Student ID :</b> ${encoded(
-        101559700
-      )} ; <b>Encoded Full name:</b> ${encoded("JuiHsinWong")}  <br>
+        StudentID
+      )} ; <b>Encoded Full name:</b> ${encoded(FullName)}  <br>
       <b>Encoded Professor's name:</b> ${encoded(
-        "ProfessorLeonard"
-      )}  ; <b>Encoded Lab session day:</b> ${encoded("Wednesday")}
+        LabProfessor
+      )}  ; <b>Encoded Lab session day:</b> ${encoded(LabSessionDay)}
       </div>
     `);
 }
@@ -35,7 +41,6 @@ function part2(num1, num2) {
   // Assign the return value to a variable named _return
   let _return = "";
   // Your code should start here
-  //twist
   num1 += 5;
   num2 -= 3;
 
@@ -46,7 +51,6 @@ function part2(num1, num2) {
   } else {
     _return = 0;
   }
-  //console.log(_return);
   /* Your code ends here.
        Don't add or change anything after this line.*/
   return _return;
@@ -62,13 +66,11 @@ function part3(startNum, endNum) {
       sum += i;
       _return += i;
     }
-    // console.log(sum);
   } else if (startNum > endNum) {
     for (let i = startNum; i >= endNum; i--) {
       sum += i;
       _return += i;
     }
-    // console.log(sum);
   } else {
     _return = (startNum + endNum).toString();
     sum = startNum + endNum;
@@ -77,7 +79,6 @@ function part3(startNum, endNum) {
   if (sum % 3 == 0) {
     _return = "Magic" + _return;
   }
-  //   console.log(_return);
   /* Your code ends here.
        Don't add or change anything after this line.*/
   return _return;
@@ -126,7 +127,6 @@ function part4(array_index, array) {
   if ((array_index = 0 || array_index == array.length - 1)) {
     _return = 0;
   }
-  //console.log(_return);
 
   /* Your code ends here.
        Don't add or change anything after this line.*/
@@ -137,7 +137,22 @@ function part5(array) {
   // Assign the return value to a variable named _return
   let _return = "";
   // Your code should start here
+  let odd = 0;
+  let n = array.length;
+  let oddArray = new Array(n + 1);
 
+  for (let i = 0; i < array.length; i += 1) {
+    if (array[i] % 2 == 0) {
+      odd = odd + array[i];
+      oddArray[i] = array[i];
+    } else {
+      odd.push(array[i]);
+    }
+  }
+  _return = oddArray[n];
+
+  console.log(odd);
+  console.log(_return);
   /* Your code ends here.
        Don't add or change anything after this line.*/
   return _return;
