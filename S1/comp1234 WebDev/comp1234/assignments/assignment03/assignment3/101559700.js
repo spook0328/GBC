@@ -146,13 +146,13 @@ function part5(array) {
   // Assign the return value to a variable named _return
   let _return = "";
   // Your code should start here
-
+  //Variable Odd Even and both array
   let evenNumber = [];
-  evenSum = 0;
+  let evenSum = 0;
   let oddNumber = [];
-  oddSum = 0;
-  newArray = [];
+  let oddSum = 0;
 
+  //classify the odd or the even
   for (let num of array) {
     if (num % 2 == 0) {
       evenNumber.push(num);
@@ -162,13 +162,13 @@ function part5(array) {
       oddSum += num;
     }
   }
-  array.push(oddNumber);
-  array.push(evenNumber);
 
-  console.log(oddSum);
-  console.log(oddNumber);
-  console.log(evenSum);
-  console.log(evenNumber);
+  //seperate the odd and even
+  _return = [...oddNumber, ...evenNumber];
+  //put the odd at the last array.length -1
+  _return.push(oddSum);
+  //put the even at the last array.length
+  _return.push(evenSum);
 
   /* Your code ends here.
        Don't add or change anything after this line.*/
