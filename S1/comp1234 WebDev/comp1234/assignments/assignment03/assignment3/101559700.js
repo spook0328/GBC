@@ -1,11 +1,14 @@
 function part1() {
   // Start your code here for first part. There is no need to return any value.
+
+  //Variable
   StudentID = "101559700";
   FullName = " Jui-HsinWong";
   LabProfessor = "Professor Leonard";
   LabSessionDay = "Wednesday";
   Semester = "1";
 
+  //encoded function
   function encoded(text) {
     text = text.toString();
     let result = "";
@@ -17,6 +20,7 @@ function part1() {
     return result;
   }
 
+  //style & text and Encoded text
   document.write(`
         <div style="
           position: fixed;
@@ -24,15 +28,15 @@ function part1() {
           right: 10px;
           padding: 10px;
       ">
-      <b>Student ID :</b> ${StudentID} <b>Full name:</b> ${FullName}<br>
-      <b>Professor's name:</b> ${LabProfessor}<b>Lab session day:</b>${LabSessionDay}
+      <b>Student ID :</b> ${StudentID} 
+      <b>Full name:</b> ${FullName}<br>
+      <b>Professor's name:</b> ${LabProfessor} 
+      <b>Lab session day:</b>${LabSessionDay}
       <br><br>
-      <b>Encoded Student ID :</b> ${encoded(
-        StudentID
-      )} ; <b>Encoded Full name:</b> ${encoded(FullName)}  <br>
-      <b>Encoded Professor's name:</b> ${encoded(
-        LabProfessor
-      )}  ; <b>Encoded Lab session day:</b> ${encoded(LabSessionDay)}
+      <b>Encoded Student ID :</b> ${encoded(StudentID)}
+      <b>Encoded Full name:</b> ${encoded(FullName)}<br>
+      <b>Encoded Professor's name:</b> ${encoded(LabProfessor)}
+      <b>Encoded Lab session day:</b> ${encoded(LabSessionDay)}
       </div>
     `);
 }
@@ -41,9 +45,11 @@ function part2(num1, num2) {
   // Assign the return value to a variable named _return
   let _return = "";
   // Your code should start here
+  //twrist
   num1 += 5;
   num2 -= 3;
 
+  //Comparison Logic
   if (num1 > num2) {
     _return = 1;
   } else if (num1 < num2) {
@@ -61,6 +67,8 @@ function part3(startNum, endNum) {
   let _return = "";
   // To hold the sum of numbers for the divisibility condition
   let sum = 0;
+
+  // Comparison Logic
   if (startNum < endNum) {
     for (let i = startNum; i <= endNum; i++) {
       sum += i;
@@ -76,6 +84,7 @@ function part3(startNum, endNum) {
     sum = startNum + endNum;
   }
 
+  // Special
   if (sum % 3 == 0) {
     _return = "Magic" + _return;
   }
@@ -112,18 +121,18 @@ function part4(array_index, array) {
     _return = sum;
   }
 
-  //   part4(0, [])
+  //   array is empty part4(0, [])
   if (array.length === 0) {
     _return = false;
   }
 
-  //   part4(2, [1, 2, 0, 3, 4])
+  //   the array_index num =0 part4(2, [1, 2, 0, 3, 4])
   if (array[array_index] == 0) {
     _return = true;
   }
 
-  //part4(0, [2, 1, 3])
-  //part4(2, [1, 2, 3])
+  //array_index =0 or array < array_index
+  //part4(0, [2, 1, 3])  //part4(2, [1, 2, 3])
   if ((array_index = 0 || array_index == array.length - 1)) {
     _return = 0;
   }
@@ -137,22 +146,30 @@ function part5(array) {
   // Assign the return value to a variable named _return
   let _return = "";
   // Your code should start here
-  let odd = 0;
-  let n = array.length;
-  let oddArray = new Array(n + 1);
 
-  for (let i = 0; i < array.length; i += 1) {
-    if (array[i] % 2 == 0) {
-      odd = odd + array[i];
-      oddArray[i] = array[i];
+  let evenNumber = [];
+  evenSum = 0;
+  let oddNumber = [];
+  oddSum = 0;
+  newArray = [];
+
+  for (let num of array) {
+    if (num % 2 == 0) {
+      evenNumber.push(num);
+      evenSum += num;
     } else {
-      odd.push(array[i]);
+      oddNumber.push(num);
+      oddSum += num;
     }
   }
-  _return = oddArray[n];
+  array.push(oddNumber);
+  array.push(evenNumber);
 
-  console.log(odd);
-  console.log(_return);
+  console.log(oddSum);
+  console.log(oddNumber);
+  console.log(evenSum);
+  console.log(evenNumber);
+
   /* Your code ends here.
        Don't add or change anything after this line.*/
   return _return;
