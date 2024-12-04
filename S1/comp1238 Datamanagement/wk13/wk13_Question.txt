@@ -1,0 +1,68 @@
+Questions - write queries for the following tasks
+One point per question
+
+List all the rectangles
+
+Take a look at the data from the rectangles table.
+How many rectangles are there?
+
+What color is the widest rectangle?
+
+What color is the tallest rectangle?
+
+List all rectangles that are wider than they are tall
+
+That is the width is larger than height
+Calculate and select area of each rectangle
+
+Area is width times height (just in case)
+Use the AS keyword to call the column Area
+What color is the largest rectangle?
+
+Largest by area
+What color is the rectangle that extends the most to the right?
+
+Hint: the coordinates of the bottom right corner are
+x + width, y + height
+Find rectangle(s) with NULL color
+
+List all the rectangles with color set to NULL
+List all the different colors
+
+Without duplicates
+List all the different named colors
+
+Without duplicates
+Do not include NULL
+Named colors are colors like red as opposed to RGB colors that look like #abcdef
+List rectangle colors in upper case letters
+
+Like this RED or #FF12B2
+What is the course_id of the course with the longest name?
+
+How many assignments are there with due dates in 2024?
+
+Concatenate Course ID and name:
+
+Write a query to list all courses, concatenating the course_id and course_name fields with a colon and a space between them. Like this:
+"COMP1151: IT Essentials"
+List courses with Labs on Mondays:
+
+Write a query to find all courses that have a lab session scheduled on Monday. Include only the course_id, course_name, and lab_time in the result.
+Past Assignments:
+
+Write a query to list all assignments with a due date before the current date.
+How many assignments are there for each course:
+
+Write a query to count the number of assignments for each course.
+Hint: GROUP BY
+Bonus tasks
+One point each, but the total grade can't be above 18.
+
+List the number of assignments per semester
+
+Write a query that list all semesters along with the number (count) of assignments for courses in that semester.
+Show the red component of all the RGB colors
+
+List all the rectangles with RGB colors (those that look like #abcdef) and create another column showing only the red component of the color.
+The red component is the first 2 digits after the #. For example, for the color #a2cb89 the red component is a2.
