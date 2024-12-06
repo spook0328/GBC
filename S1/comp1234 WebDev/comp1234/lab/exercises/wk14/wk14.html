@@ -14,59 +14,162 @@
   </head>
 
   <body>
-    <main>
-      <table>
+    <h2>Regular Table</h2>
+    <table id="rtable">
+      <thead>
+        <tr>
+          <th colspan="3">My Table</th>
+        </tr>
         <tr>
           <th>date</th>
           <th>name</th>
           <th>cost</th>
         </tr>
+      </thead>
+      <tbody>
         <tr>
           <td>Dec.</td>
-          <td>Eric</td>
-          <td>300</td>
+          <td>Costpro</td>
+          <td>$100</td>
         </tr>
-
-        <tfoot>
-          <tr>
-            <th colspan="2">total</th>
-            <th>$1300</th>
-          </tr>
-        </tfoot>
-      </table>
-
-      <table id="ntable">
-        <caption>
-          Outside table one
-        </caption>
         <tr>
-          <td>
-            <table id="ntable1">
-              <caption>
-                Inside table one
-              </caption>
-              <tr>
-                <td>r1 c1</td>
-                <td>r1 c2</td>
-              </tr>
-            </table>
-            <table id="ntable2">
-              <caption>
-                Inside table one
-              </caption>
-              <tr>
-                <td>r1 c1</td>
-                <td>r1 c2</td>
-              </tr>
-            </table>
-          </td>
+          <td>Jan.</td>
+          <td>KrazyKids Inc</td>
+          <td>$200</td>
         </tr>
-      </table>
-    </main>
+        <tr>
+          <td>Mar.</td>
+          <td>Lazy Teachers</td>
+          <td rowspan="2">$500</td>
+        </tr>
+        <tr>
+          <td>Apr.</td>
+          <td class="noalign">Lazy Teachers</td>
+          <!--                <td>$500</td>-->
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th colspan="2">Total:</th>
+          <th>$1300</th>
+        </tr>
+      </tfoot>
+    </table>
 
-    <footer>
-      <!-- <script src=https://my.gblearn.com/js/loadscript.js></script> -->
-    </footer>
-    <br />
+    <table id="ntable">
+      <caption>
+        Outside Table
+      </caption>
+      <tr>
+        <td>
+          <table id="ntable1">
+            <caption>
+              Inside Table One
+            </caption>
+            <tr>
+              <td>r1 c1</td>
+              <td>r1 c2</td>
+            </tr>
+            <tr>
+              <td>r2 c1</td>
+              <td>r2 c2</td>
+            </tr>
+          </table>
+        </td>
+        <td>
+          <table id="ntable2">
+            <caption>
+              Inside Table two
+            </caption>
+            <tr>
+              <td>r1 c1</td>
+              <td>r1 c2</td>
+            </tr>
+            <tr>
+              <td>r2 c1</td>
+              <td>r2 c2</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+    <table id="stable">
+      <colgroup>
+        <col class="col1" />
+        <col class="col2" />
+        <col class="col3" />
+        <col class="col4" />
+        <col class="col5" />
+        <col class="col6" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>title1</th>
+          <th>title2</th>
+          <th>title3</th>
+          <th>title4</th>
+          <th>title5</th>
+          <th>title6</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>data1</td>
+          <td>data2</td>
+          <td>data3</td>
+          <td>data4</td>
+          <td>data5</td>
+          <td>data6</td>
+        </tr>
+        <tr>
+          <td>data1</td>
+          <td>data2</td>
+          <td>data3</td>
+          <td>data4</td>
+          <td>data5</td>
+          <td>data6</td>
+        </tr>
+        <tr>
+          <td>data1</td>
+          <td>data2</td>
+          <td>data3</td>
+          <td>data4</td>
+          <td>data5</td>
+          <td>data6</td>
+        </tr>
+        <tr>
+          <td>data1</td>
+          <td>data2</td>
+          <td>data3</td>
+          <td>data4</td>
+          <td>data5</td>
+          <td>data6</td>
+        </tr>
+        <tr>
+          <td>data1</td>
+          <td>data2</td>
+          <td>data3</td>
+          <td>data4</td>
+          <td>data5</td>
+          <td>data6</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th>foot1</th>
+          <th>foot2</th>
+          <th>foot3</th>
+          <th>foot4</th>
+          <th>foot5</th>
+          <th>foot6</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <label for="highlight">Choose a column to highlight:</label>
+    <input type="text" id="highlight" name="highlight" />
+    <input type="button" value="select" onclick="highlight()" />
+    <input type="button" value="remove" onclick="unhighlight()" />
+    <script src="assets/script.js"></script>
   </body>
 </html>

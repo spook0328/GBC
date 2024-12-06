@@ -1,0 +1,50 @@
+table,
+th,
+td {
+  border: black 2px solid;
+  border-collapse: collapse;
+}
+table {
+  width: 70%;
+  margin: 1em auto;
+}
+h2 {
+  text-align: center;
+}
+#rtable thead,
+#rtable tfoot {
+  background-color: lightblue;
+}
+#rtable > tbody > tr > td:last-child:not(.noalign) {
+  text-align: right;
+}
+/*#rtable>tbody>tr:nth-child(2n){ !*even*!*/
+/*    background-color: lightpink;*/
+/*}*/
+#rtable > tbody > tr:nth-child(2n-1) {
+  /*odd*/
+  background-color: lightpink;
+}
+#ntable1 {
+  caption-side: bottom;
+}
+#ntable {
+  height: 200px;
+}
+#ntable td {
+  vertical-align: top;
+}
+#ntable td:last-child {
+  vertical-align: bottom;
+}
+#stable thead,
+#stable tfoot {
+  background-color: lightgreen;
+}
+/*#stable col.col4{*/
+/*    background-color: yellow;*/
+/*}*/
+
+.highlight {
+  background-color: yellow;
+}
