@@ -1,0 +1,5 @@
+/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/obj/Debug/net8.0/comp 1201 Object Oriented Programming2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/obj/Debug/net8.0/comp 1201 Object Oriented Programming2.AssemblyInfoInputs.cache
+/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/obj/Debug/net8.0/comp 1201 Object Oriented Programming2.AssemblyInfo.cs
+/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/obj/Debug/net8.0/comp 1201 Object Oriented Programming2.csproj.CoreCompileInputs.cache
+/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/obj/Debug/net8.0/comp 1201 Object Oriented Programming2.sourcelink.json
