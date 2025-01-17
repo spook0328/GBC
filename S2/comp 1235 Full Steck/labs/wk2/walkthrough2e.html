@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title - Jui Hsin Wong</title>
+    <meta name="author" content="Eric Wong" />
+    <!-- External css can be defined by link
+    <link rel="style" src ="demo.css"/> 
+    -->
+    <style>
+      body {
+        background: lightblue;
+        color: black;
+        font-family: "Courier New", Courier, monospace;
+      }
+      ul {
+        list-style: none;
+        max-width: 700px;
+        padding: 0;
+        margin: 0;
+        /*  */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-flow: wrap;
+      }
+      li{
+        flex: 1 20px;
+      }
+      li:nth-child(5){
+        flex: 1 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Small text 1</li>
+      <li>Small text 2</li>
+      <li>Small text 3</li>
+      <li>Small text 4</li>
+      <li>Small text 5</li>
+      <li>Small text 6</li>
+      <li>Small text 7</li>
+  </body>
+</html>

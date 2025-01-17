@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title - Jui Hsin Wong</title>
+    <meta name="author" content="Eric Wong" />
+    <!-- Q1 Head tag : used to write inline css -->
+    <!-- Topic 1: Flex box layout
+       2. Elements of the page
+       a) html, b)head, c) body, d) style
+       e)nav, f) ul, g) li, h)a
+      Topic 1 : Flex box layout
+      Part A
+      1) display: flex;
+      2) flex-direction: row/column;
+      3) align-item: center/space-around/justify/end/start;
+      Part B
+      Remove extra spaces
+      1) justify-content: space-around;
+      -->
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        width: 70%;
+        max-width: 960px;
+      }
+      button {
+        font-size: 18px;
+        line-height: 1.5;
+        width: 15%;
+      }
+      div {
+        border: 2px solid black;
+        height: 100px;
+        /* part 1 */
+        display: flex;
+        flex-direction: flex;
+        align-items: center;
+        /* part 2 */
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <button>Shrink</button>
+      <button>Smile</button>
+      <button>Laugh</button>
+      <button>Cry</button>
+    </div>
+  </body>
+</html>

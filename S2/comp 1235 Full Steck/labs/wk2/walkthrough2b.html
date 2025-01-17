@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Title - Jui Hsin Wong(Complex Flex layout)</title>
+    <meta name="author" content="Eric Wong" />
+    <style>
+      html {
+        font-family: sans-serif;
+      }
+      body {
+        margin: 0;
+      }
+      header {
+        background-color: aqua;
+        height: 100px;
+      }
+      h1 {
+        color: black;
+        text-align: center;
+        margin: 0;
+        line-height: 100px;
+      }
+      article {
+        padding: 10px;
+        margin: 10px;
+        background-color: lightblue;
+        flex: 1 200px; /* making the actual distance between each article */
+        /* TOp left right bottmon */
+      }
+      /* apply flex property */
+      section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+      }
+    </style>
+  </head>
+  <body>
+    <header><h1>Complex flexbox layout</h1></header>
+    <section>
+      <article>
+        <h2>Article 1</h2>
+        <p>para 1</p>
+      </article>
+
+      <article>
+        <h2>Article 2</h2>
+        <p>para 2</p>
+      </article>
+
+      <article>
+        <div>
+          <button>Shrink</button>
+          <button>Smile</button>
+          <button>Laugh</button>
+          <button>Cry</button>
+        </div>
+        <div><p>p1</p></div>
+        <div><p>p2</p></div>
+      </article>
+    </section>
+  </body>
+</html>
