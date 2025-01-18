@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("comp 1201 Object Oriented Programming2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a9d9b5b1c29b8633fca5510c4cfb17dcada5c376")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c4fdc6f09bab233ba32f5066c0d66cfc002a3b")]
 [assembly: System.Reflection.AssemblyProductAttribute("comp 1201 Object Oriented Programming2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("comp 1201 Object Oriented Programming2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
