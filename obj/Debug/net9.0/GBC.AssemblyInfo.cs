@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("comp 1201 Object Oriented Programming2")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("GBC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbe9e0e9fdb7aa586ebed8ba4203af36b0020a09")]
-[assembly: System.Reflection.AssemblyProductAttribute("comp 1201 Object Oriented Programming2")]
-[assembly: System.Reflection.AssemblyTitleAttribute("comp 1201 Object Oriented Programming2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+25c2d2979e67aaf9208a6faa8b10352599dc0985")]
+[assembly: System.Reflection.AssemblyProductAttribute("GBC")]
+[assembly: System.Reflection.AssemblyTitleAttribute("GBC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 類別產生。

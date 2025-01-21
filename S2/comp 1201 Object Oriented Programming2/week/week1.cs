@@ -49,9 +49,9 @@ namespace weekone
             Console.WriteLine(num1 + num2); // 5+2 =52
             //The correct way to write
             Console.WriteLine("Enter First integers");
-            int num1 = Convert.ToInt32( Console.ReadLine());
+            int num3 = Convert.ToInt32( Console.ReadLine());
             Console.WriteLine("Enter two integers");
-            int num2 =Convert.ToInt32( Console.ReadLine());
+            int num4 =Convert.ToInt32( Console.ReadLine());
 
             Console.WriteLine(num1 + num2);//5+2=7
             //避免overflow 可以用try catch...
@@ -60,9 +60,9 @@ namespace weekone
             try {
             
             Console.WriteLine("Enter First integers");
-            int num1 = Convert.ToInt32( Console.ReadLine());
+            int num5 = Convert.ToInt32( Console.ReadLine());
             Console.WriteLine("Enter two integers");
-            int num2 =Convert.ToInt32( Console.ReadLine());
+            int num6 =Convert.ToInt32( Console.ReadLine());
 
             Console.WriteLine(num1 + num2);
             }

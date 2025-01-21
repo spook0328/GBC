@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/comp 1201 Object Oriented Programming2.csproj": {}
+    "/Users/ericwong/Desktop/GBC/GBC.csproj": {}
   },
   "projects": {
-    "/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/comp 1201 Object Oriented Programming2.csproj": {
+    "/Users/ericwong/Desktop/GBC/GBC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/comp 1201 Object Oriented Programming2.csproj",
-        "projectName": "comp 1201 Object Oriented Programming2",
-        "projectPath": "/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/comp 1201 Object Oriented Programming2.csproj",
+        "projectUniqueName": "/Users/ericwong/Desktop/GBC/GBC.csproj",
+        "projectName": "GBC",
+        "projectPath": "/Users/ericwong/Desktop/GBC/GBC.csproj",
         "packagesPath": "/Users/ericwong/.nuget/packages/",
-        "outputPath": "/Users/ericwong/Desktop/GBC/S2/comp 1201 Object Oriented Programming2/obj/",
+        "outputPath": "/Users/ericwong/Desktop/GBC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/ericwong/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net9.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -54,20 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.osx-x64",
-              "version": "[8.0.11, 8.0.11]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.11, 8.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
