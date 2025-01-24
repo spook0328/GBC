@@ -1,10 +1,10 @@
-namespace weekone
+namespace comp_1201_Object_Oriented_Programming1;
+
+public class week1
 {
-    class Program
+    public static void week1Main()
     {
-        static void Main(string[] args)
-        {
-			//IPO ----Input process Output
+        //IPO ----Input process Output
             //Variables! ------------- (How many type of variables we have?)
 
             //Integer --->7
@@ -69,6 +69,5 @@ namespace weekone
             catch (FormatException) { Console.WriteLine("The input must be integer"); }
             catch (OverflowException) { Console.WriteLine("This is to big!"); }
         
-        }
     }
 }
