@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task5</title>
+    <meta name="author" content="Eric Wong" />
+    <style>
+      div,
+      article {
+        border: 2px solid goldenrod;
+      }
+      .wrapper {
+        display: grid;
+        /* repeat(3,1fr) == subgrid */
+        /* Subgrid -> to adjust the number of rows and columns in a given space(by any element)*/
+        /* When you don't know how many grid use subgrid */
+        grid-template-columns: subgrid;
+        gap: 20px;
+        grid-auto-rows: minmax(100px, 110px);
+        background-color: lightseagreen;
+      }
+
+      div div {
+        background-color: lightblue;
+      }
+      article {
+        background-color: lightgreen;
+      }
+
+      .item1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column: 1/4;
+        grid-row: 1/3;
+      }
+
+      .item2 {
+        grid-column-start: 1;
+        grid-row: 2/4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="item1">
+        <article>a</article>
+        <article>b</article>
+        <article>c</article>
+      </div>
+      <div class="item2">
+        two
+        <p>This makes me taller than 100 piexls.</p>
+        <p>This makes me taller than 100 piexls.</p>
+      </div>
+      <div class="item3">three</div>
+      <div class="item4">four</div>
+      <div class="item5">five</div>
+    </div>
+  </body>
+</html>
