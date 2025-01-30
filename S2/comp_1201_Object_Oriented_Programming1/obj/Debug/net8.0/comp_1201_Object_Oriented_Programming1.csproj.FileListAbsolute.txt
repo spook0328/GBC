@@ -1,0 +1,15 @@
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.AssemblyInfoInputs.cache
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.AssemblyInfo.cs
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.csproj.CoreCompileInputs.cache
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.sourcelink.json
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/bin/Debug/net8.0/comp_1201_Object_Oriented_Programming1
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/bin/Debug/net8.0/comp_1201_Object_Oriented_Programming1.deps.json
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/bin/Debug/net8.0/comp_1201_Object_Oriented_Programming1.runtimeconfig.json
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/bin/Debug/net8.0/comp_1201_Object_Oriented_Programming1.dll
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/bin/Debug/net8.0/comp_1201_Object_Oriented_Programming1.pdb
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.dll
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/refint/comp_1201_Object_Oriented_Programming1.dll
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.pdb
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/comp_1201_Object_Oriented_Programming1.genruntimeconfig.cache
+/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/obj/Debug/net8.0/ref/comp_1201_Object_Oriented_Programming1.dll
