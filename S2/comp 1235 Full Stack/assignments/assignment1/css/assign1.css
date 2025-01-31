@@ -1,6 +1,78 @@
+header,
+footer {
+  font-family: "Courier New", Courier, monospace;
+}
+
+main {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 header {
   display: flex;
   justify-content: center;
   width: 100%;
   align-items: center;
+}
+
+nav {
+  border: solid 2px black;
+  width: 960px;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#nav-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+#footer-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+#course-grid {
+  max-width: 960px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px auto;
+  gap: 15px 10px;
+}
+
+#page_title {
+  color: black;
+  grid-column: 1/4;
+}
+
+.course_item {
+  display: grid;
+  grid-template-columns: 1fr, 2fr;
+  grid-template-rows: 1fr, 1fr, 4fr;
+  grid-template-areas:
+    "image number"
+    "image title"
+    "image description";
+  border: 1px solid black;
+  background-color: lightblue;
+}
+
+.lab_image {
+  grid-area: image;
+}
+
+.lab_number {
+  grid-area: number;
+}
+.lab_title {
+  grid-area: title;
+}
+.lab-description {
+  color: lightgray;
+  grid-area: description;
 }
