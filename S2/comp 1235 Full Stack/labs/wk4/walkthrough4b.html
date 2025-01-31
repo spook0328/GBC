@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task2</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      //Write a JavaScript script that accepts a numerical input for the number of iterations
+      let stop_num = parseInt(prompt("Enter a number: "));
+      // and utilizes a while loop.
+      let i = 0;
+      while (i < stop_num) {
+        if (i === 1) {
+          i++;
+          continue; //skip this part to the next iteration
+        }
+        console.log("We are at" + i + "iteration");
+        if (i === 3) {
+          break;
+        }
+        i++;
+      }
+      //Ensure that the loop skip(continue) at iteration number gets to 1
+      // and stops when the iteration count reaches 3.
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task3</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      //Write a JavaScript script
+      // to create an Animal object,
+      let a = 5;
+      //new key words is used to create new object
+      const Animal = new Object();
+      // declare constant variable for tail_length.
+      Animal.tail_length = 2;
+      // Declare the properties for one of the animals
+      const Dino = {
+        name: "Trex",
+        cousins: ["Abc", "Def"],
+        food: [
+          { breakfast_m: "meat", dinner_m: "human" }, //0
+          { breakfast_t: "milk", dinner_t: "Susage" }, //1
+        ],
+      };
+      //  and display the few properties.
+      document.write("Name of the animals: ", Dino.name + "<br>");
+      document.write("Name of the second cousin: ", Dino.cousins[1] + "<br>");
+      document.write(
+        "What Dino is eating on Tuesday dinner: ",
+        Dino.food[1].dinner_t
+      );
+    </script>
+  </head>
+  <body></body>
+</html>

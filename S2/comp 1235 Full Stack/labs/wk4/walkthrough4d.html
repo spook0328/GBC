@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task4</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      //Write a java script which can test expression
+      // patterns:
+      // syntax => Pattern.test(Text to be matched)
+      // 1=> Pattern_literal: (‘/pop/’),
+      let literal_pattern = new RegExp(/pop/, "i");
+      let literal = "lollypop";
+      let result1 = literal_pattern.test(literal); //booleam
+      document.write("Answer : " + result1); //true
+
+      // 2=> Pattern_phone: (‘/\(\d{3}\)\d{3}-\d{4}/’)
+      let phone_pattern = new RegExp(/\(\d{3}\)\d{3}-\d{4}/);
+      let p = "(437)123-4444";
+      let p2;
+      let result2 = phone_pattern.test(p); //booleam
+      let result3 = phone_pattern.test(p2); //booleam
+      document.write("Answer : " + result2); //true
+      document.write("Answer : " + result3); // false
+
+      // 3=> Pattern_email: (‘/^[a-zA-Z\.]*@[a-zA-Z]+\.com$/’))
+      let email_pattern = new RegExp(/^[a-zA-Z\.]*@[a-zA-Z]+\.com$/);
+      let e = "test@gmail.com";
+      let e2 = "test#!@gmail.com";
+      let result4 = email_pattern.test(e); //booleam
+      let result5 = email_pattern.test(e2); //booleam
+
+      document.write("Answer : " + result4); // false
+      document.write("Answer : " + result5); // false
+
+      // Upload the work under public_html/comp1235/labs/week4/
+    </script>
+  </head>
+  <body></body>
+</html>
