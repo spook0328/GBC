@@ -13,6 +13,28 @@ public class week4
         Console.WriteLine(("Enter 1, 2, 3 or 4"));
         return Console.ReadLine(); // collect this in a form of string!
     }
+   public static void week4Main()
+    {
+        while (true)
+        {
+            var choice = week4Menu();
+            if (choice == "1") { PlayGuessingGame();}
+            else if(choice =="2") { Calculation(); }
+            else if (choice == "3")
+            {
+                Array colors = Enum.GetValues(typeof(ConsoleColor));
+                ConsoleColor randomColor = (ConsoleColor)colors.GetValue(new Random().Next(1, colors.Length));
+                
+                Console.ForegroundColor = randomColor;
+            }
+            else if(choice == "4") {Console.WriteLine(("Exit the program"));break;}
+            else
+            {
+                Console.WriteLine("Bad input, please try again");
+            }
+
+        }
+    }
 
     public static string GameMenu()
     {
@@ -63,28 +85,6 @@ public class week4
         }
     }
 
-   public static void week4Main()
-    {
-        while (true)
-        {
-            var choice = week4Menu();
-            if (choice == "1") { PlayGuessingGame();}
-            else if(choice =="2") { Calculation(); }
-            else if (choice == "3")
-            {
-                Array colors = Enum.GetValues(typeof(ConsoleColor));
-                ConsoleColor randomColor = (ConsoleColor)colors.GetValue(new Random().Next(1, colors.Length));
-                
-                Console.ForegroundColor = randomColor;
-            }
-            else if(choice == "4") {Console.WriteLine(("Exit the program"));break;}
-            else
-            {
-                Console.WriteLine("Bad input, please try again");
-            }
-
-        }
-    }
 
     private static string CalculationMenu()
     {
