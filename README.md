@@ -9,26 +9,53 @@ Useful link
 [Linux operating system Commands](/cli.md)
 ---
 
-1️⃣2️⃣3️⃣4️⃣First semster:
+1️⃣First semster:
 ---
 Mon
-🤌Comp-1151 IT essential(online)
-🤌Comp-1236 Introduction to Web Development(online)
+🤌Comp-1236 Fundamentals of Computer Logic(course)
+🤌Comp-1238  Introduction to Data Management(course)
+🤌Comp-1151 IT essential(course)
 
 Tue
 🤌Mathematic
-🤌Comp-1236 Fundamentals of Computer Logic
-🤌Comp-1236 Introduction to Web Development
+🤌Comp-1236 Fundamentals of Computer Logic(lab)
+🤌Comp-1236 Introduction to Web Development(course)
 
 Wed
-🤌Comp-1151 IT essential
+🤌Comp-1151 IT essential(lab)
+🤌Comp-1236 Introduction to Web Development(lab)
 
 Thu
-🤌Comp-1238  Introduction to Data Management
+🤌Comp-1238  Introduction to Data Management(lab)
+🤌Mathematic
 
 Fri
-🤌Commn 1001 English
+🤌Commn 1000 English
 
+---
+2️⃣Second semestre:
+---
+Mon
+🤌Comp-1168 Database Management (course)
+🤌Commn-2000 English
+
+Tue
+🤌Comp-1027 Personal Finance
+🤌Mathematic
+
+Wed
+🤌Comp-1235 Intro to Full Stack Development (course)
+🤌Comp-1202 Object Oriented Programming (course)
+🤌Mathematic
+
+Thu
+🤌Comp-1168 Database Management (lab)
+🤌Comp-1202 Object Oriented Programming (lab)
+
+Fri
+🤌Comp-3044 Linux Essentials (course)
+🤌Comp-1235 Intro to Full Stack Development (lab)
+3️⃣4️⃣
 ---
 - ! : Exclamation mark
 - @ : At sign
