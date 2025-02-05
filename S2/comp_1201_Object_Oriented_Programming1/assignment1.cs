@@ -52,46 +52,6 @@ public class assignment1
 		}
 	}
 
-	//public static void Information()
-	//{
-	//	int counter = 0;
-	//	var randInt = new Random().Next(1, 100);
-	//	while (true)
-	//	{
-	//		Console.WriteLine("Enter a number 1 to 100");
-	//		var userInput = Convert.ToInt32(Console.ReadLine());
-	//		if (userInput > randInt) Console.WriteLine("Guess something smaller");
-	//		else if (userInput < randInt) Console.WriteLine("Guess something larger");
-	//		else
-	//		{
-	//			Console.WriteLine($"Game is over! it took you {counter} time to guess the number"); break;
-	//		}
-	//	}
-	//}
-
-	//public static void TwoPlayers()
-	//{
-	//	Console.WriteLine("Enter name of two players");
-	//	var p1name = Console.ReadLine();
-	//	var p2name = Console.ReadLine();
-	//	var turn = "";
-	//	if (new Random().Next(1, 3) == 1) turn = p1name; else turn = p2name;
-	//	var randInt = new Random().Next(1, 101);
-	//	while (true)
-	//	{
-	//		Console.WriteLine($"{turn}---> guess something b/w 1 to 100");
-	//		var userInput = Convert.ToInt32(Console.ReadLine());
-	//		if (userInput == randInt) { Console.WriteLine($"{turn} is the winner"); break; }
-	//		else if (userInput > randInt) { Console.WriteLine("guess something smaller"); }
-	//		else
-	//		{
-	//			Console.WriteLine("guess something larger");
-	//		}
-	//		// change turn
-	//		if (turn == p1name) turn = p2name; else turn = p1name;
-	//	}
-	//}
-
 
 	private static string DateTimeMenu()
 	{
