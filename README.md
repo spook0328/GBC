@@ -63,12 +63,11 @@ Fri<br>
 - "*" : Asterisk
 - ( : Left parenthesis
 - ) : Right parenthesis
-- ## Keyboard shortcuts
 </details>
 
 <details>
 <summary>Shortcuts I frequently use: </summary>
-  
+  ## Keyboard shortcuts
 - Ctrl-C (copy)
 - Ctrl-V (paste)
 - Ctrl-Z (undo)
