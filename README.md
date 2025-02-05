@@ -68,6 +68,7 @@ Fri<br>
 - ( : Left parenthesis
 - ) : Right parenthesis
 - ## Keyboard shortcuts
+---
 Shortcuts I frequently use: 
 - Ctrl-C (copy)
 - Ctrl-V (paste)
