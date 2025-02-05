@@ -52,6 +52,7 @@ Fri<br>
 ---
 <details>
 <summary>Tips for Linux code</summary>
+  
 - ! : Exclamation mark
 - @ : At sign
 - "#" : Hash
@@ -64,8 +65,10 @@ Fri<br>
 - ) : Right parenthesis
 - ## Keyboard shortcuts
 </details>
+
 <details>
 <summary>Shortcuts I frequently use: </summary>
+  
 - Ctrl-C (copy)
 - Ctrl-V (paste)
 - Ctrl-Z (undo)
@@ -76,8 +79,10 @@ Fri<br>
 - Ctrl-Shift V (Only paste the word and the format)
   <br>
 </details>
+
 <details>
 <summary> Useful link </summary>
+  
 [GBC GitHub Pages](https://pages.github.com/)<br>
 [Linux operating system Commands](/cli.md)
 </details>
