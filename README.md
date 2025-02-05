@@ -55,7 +55,7 @@ Fri<br>
 🤌Comp-1235 Intro to Full Stack Development (lab)<br>
 3️⃣4️⃣<br>
 ---
-<detail>
+<details>
 <summary>Tips for Linux code</summary>
 - ! : Exclamation mark
 - @ : At sign
@@ -77,4 +77,4 @@ Shortcuts I frequently use:
 - Ctrl-A (select all)
 - Win-D (show desktop)
 - Ctrl-Shift V (Only paste the word and the format)
-</detail>
+</details>
