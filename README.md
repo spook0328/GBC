@@ -63,7 +63,8 @@ Fri<br>
 - ( : Left parenthesis
 - ) : Right parenthesis
 - ## Keyboard shortcuts
-  <br>
+</details>
+<details>
 <summary>Shortcuts I frequently use: </summary>
 - Ctrl-C (copy)
 - Ctrl-V (paste)
@@ -74,6 +75,8 @@ Fri<br>
 - Win-D (show desktop)
 - Ctrl-Shift V (Only paste the word and the format)
   <br>
+</details>
+<details>
 <summary> Useful link </summary>
 [GBC GitHub Pages](https://pages.github.com/)<br>
 [Linux operating system Commands](/cli.md)
