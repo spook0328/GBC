@@ -1,6 +1,6 @@
 namespace comp_1201_Object_Oriented_Programming1;
 
-public class week4
+public class assignment1
 {
 	static string AssignmentMenu()
 	{
@@ -14,11 +14,11 @@ public class week4
 		return Console.ReadLine(); // collect this in a form of string!
 	}
 
-	public static void AssignmentMenu()
+	public static void MainMenu()
 	{
 		while (true)
 		{
-			var choice = week4Menu();
+			var choice = AssignmentMenu();
 			if (choice == "1") { Information(); }
 			else if (choice == "2") { DateTime(); }
 			else if (choice == "3") { HandleText(); }
@@ -31,7 +31,7 @@ public class week4
 		}
 	}
 
-	public static string Information()
+	public static string InformationMenu()
 	{
 		Console.WriteLine("------Display information-------");
 		Console.WriteLine("Name: Jui Hsin Wong");
@@ -39,6 +39,17 @@ public class week4
 		Console.WriteLine("=================");
 		Console.WriteLine("Enter 1 go to previous menu");
 			return Console.ReadLine();
+	}
+
+	public static void Information(){
+		while(true){
+		var choice = InformationMenu();
+		if (choice=="1"){Console.WriteLine("Go back to previous menu");break;}
+		else
+			{
+				Console.WriteLine("Bad input, please try again");
+			}
+		}
 	}
 
 	//public static void Information()
@@ -82,7 +93,7 @@ public class week4
 	//}
 
 
-	private static string DateTime()
+	private static string DateTimeMenu()
 	{
 		Console.WriteLine("------Date and Time Operations Menu-------");
 		Console.WriteLine("1- Display Current Date and Time");
@@ -94,19 +105,19 @@ public class week4
 		return Console.ReadLine();
 	}
 
-	private static void DateTime()
+	private static void DateTimeCalculate()
 	{
 		while (true)
 		{
-			var choice = CalculationMenu();
+			var choice = DateTimeMenu();
+			DateTime now = DateTime.Now;
 			if (choice == "1" || choice == "2" || choice == "3" || choice == "4")
 			{
-				Console.WriteLine("Enter two numbers");
-				var num1 = int.Parse(Console.ReadLine());
-				var num2 = int.Parse(Console.ReadLine());
-
-				if (choice == "1") Console.WriteLine($"The summation of {num1}and{num2}is {num1 + num2}");
-				else if (choice == "2") Console.WriteLine($"The subbtraction of {num1}and{num2}is {num1 - num2}");
+				if (choice == "1") Console.WriteLine($"The current time and date is {DateTime.Now}");
+				else if (choice == "2") 
+				Console.WriteLine("How many Days you want to add?");
+				var AddDate = int.Parse(Console.ReadLine());
+				Console.WriteLine($"The Add Date of current Date is {DateTime.Now + AddDate}");
 				else if (choice == "3") Console.WriteLine($"The Multiply of {num1}and{num2}is {num1 * num2}");
 				else if (choice == "4")
 				{
@@ -125,7 +136,7 @@ public class week4
 		}
 	}
 
-	private static string HandleText()
+	private static string HandleTextMenu()
 	{
 		Console.WriteLine("------ Text Operations Menu-------");
 		Console.WriteLine("1- Reverse Text");
@@ -140,7 +151,7 @@ public class week4
 	{
 		while (true)
 		{
-			var choice = GameMenu();// running the sub meny
+			var choice = HandleTextMenu();// running the sub menu
 			if (choice == "1") { SinglePlayer(); }
 			else if (choice == "2") { TwoPlayers(); }
 			else if (choice == "3") { Console.Clear(); return; }
