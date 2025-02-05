@@ -10,23 +10,23 @@ Useful link
 
 1️⃣First semster:
 ---
-Mon
+Mon<br>
 🤌Comp-1236 Fundamentals of Computer Logic(course)<br>
 🤌Comp-1238  Introduction to Data Management(course)<br>
-🤌Comp-1151 IT essential(course)
+🤌Comp-1151 IT essential(course)<br>
 
-Tue
-🤌Mathematic
-🤌Comp-1236 Fundamentals of Computer Logic(lab)
-🤌Comp-1236 Introduction to Web Development(course)
+Tue<br>
+🤌Mathematic<br>
+🤌Comp-1236 Fundamentals of Computer Logic(lab)<br>
+🤌Comp-1236 Introduction to Web Development(course)<br>
 
-Wed
-🤌Comp-1151 IT essential(lab)
-🤌Comp-1236 Introduction to Web Development(lab)
+Wed<br>
+🤌Comp-1151 IT essential(lab)<br>
+🤌Comp-1236 Introduction to Web Development(lab)<br>
 
-Thu
-🤌Comp-1238  Introduction to Data Management(lab)
-🤌Mathematic
+Thu<br>
+🤌Comp-1238  Introduction to Data Management(lab)<br>
+🤌Mathematic<br>
 
 Fri
 🤌Commn 1000 English
