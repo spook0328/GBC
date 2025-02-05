@@ -28,33 +28,34 @@ Thu<br>
 🤌Comp-1238  Introduction to Data Management(lab)<br>
 🤌Mathematic<br>
 
-Fri
+Fri<br>
 🤌Commn 1000 English
 
 ---
+
 2️⃣Second semestre:
 ---
-Mon
-🤌Comp-1168 Database Management (course)
-🤌Commn-2000 English
+Mon<br>
+🤌Comp-1168 Database Management (course)<br>
+🤌Commn-2000 English<br>
 
-Tue
-🤌Comp-1027 Personal Finance
-🤌Mathematic
+Tue<br>
+🤌Comp-1027 Personal Finance<br>
+🤌Mathematic<br>
 
-Wed
-🤌Comp-1235 Intro to Full Stack Development (course)
-🤌Comp-1202 Object Oriented Programming (course)
-🤌Mathematic
+Wed<br>
+🤌Comp-1235 Intro to Full Stack Development (course)<br>
+🤌Comp-1202 Object Oriented Programming (course)<br>
+🤌Mathematic<br>
 
-Thu
-🤌Comp-1168 Database Management (lab)
-🤌Comp-1202 Object Oriented Programming (lab)
+Thu<br>
+🤌Comp-1168 Database Management (lab)<br>
+🤌Comp-1202 Object Oriented Programming (lab)<br>
 
-Fri
-🤌Comp-3044 Linux Essentials (course)
-🤌Comp-1235 Intro to Full Stack Development (lab)
-3️⃣4️⃣
+Fri<br>
+🤌Comp-3044 Linux Essentials (course)<br>
+🤌Comp-1235 Intro to Full Stack Development (lab)<br>
+3️⃣4️⃣<br>
 ---
 - ! : Exclamation mark
 - @ : At sign
