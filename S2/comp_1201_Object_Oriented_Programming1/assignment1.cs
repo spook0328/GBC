@@ -111,28 +111,23 @@ public class assignment1
 		{
 			var choice = DateTimeMenu();
 			DateTime now = DateTime.Now;
-			if (choice == "1" || choice == "2" || choice == "3" || choice == "4")
+			if (choice == "1" || choice == "2" || choice == "3" )
 			{
-				if (choice == "1") Console.WriteLine($"The current time and date is {DateTime.Now}");
-				else if (choice == "2") 
-				Console.WriteLine("How many Days you want to add?");
+				if (choice == "1") Console.WriteLine($"The current time and date is {now}");
+				else if (choice == "2") Console.WriteLine("How many Days you want to add?");
 				var AddDate = int.Parse(Console.ReadLine());
-				Console.WriteLine($"The Add Date of current Date is {DateTime.Now + AddDate}");
-				else if (choice == "3") Console.WriteLine($"The Multiply of {num1}and{num2}is {num1 * num2}");
-				else if (choice == "4")
-				{
-					if (num2 != 0)
-						Console.WriteLine($"The division of {num1} and {num2} is {num1 / num2}");
-					else
-						Console.WriteLine($"The division of {num1} and {num2} is UNDEFINED");
-				}
+				Console.WriteLine($"The Add Date of current Date is {DateTime.Now.AddDays(AddDate)}");
+				else if (choice == "3") Console.WriteLine("What is your birthday(yyyy/mm/dd)");
+				var BirthDate = DateTime.Parse(Console.ReadLine());
+				Console.WriteLine($"Your age is {DateTime.Now - BirthDate}");
+							
 				else
 				{
 					Console.WriteLine("Bad input, please try again");
 				}
 				// if (choice =="4") Console.WriteLine($"The Divide of {num1}and{num2}is {num1/num2}");
 			}
-			else if (choice == "5") return;
+			else if (choice == "4") return;
 		}
 	}
 
