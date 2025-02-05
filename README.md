@@ -5,15 +5,14 @@ Useful link
 ---
 [GBC GitHub Pages](https://pages.github.com/)<br>
 [GBC GitHub io](https://spook0328.github.io/GBC/) <br>
-[Google](https://www.google.com/)<br>
 [Linux operating system Commands](/cli.md)
 ---
 
 1️⃣First semster:
 ---
 Mon
-🤌Comp-1236 Fundamentals of Computer Logic(course)
-🤌Comp-1238  Introduction to Data Management(course)
+🤌Comp-1236 Fundamentals of Computer Logic(course)<br>
+🤌Comp-1238  Introduction to Data Management(course)<br>
 🤌Comp-1151 IT essential(course)
 
 Tue
