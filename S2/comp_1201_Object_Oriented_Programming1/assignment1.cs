@@ -20,7 +20,7 @@ public class assignment1
 		{
 			var choice = AssignmentMenu();
 			if (choice == "1") { Information(); }
-			else if (choice == "2") { DateTime(); }
+			else if (choice == "2") { DateTimeCalculate(); }
 			else if (choice == "3") { HandleText(); }
 			else if (choice == "4") { Console.WriteLine(("Exit the program")); break; }
 			else
@@ -98,7 +98,7 @@ public class assignment1
 		Console.WriteLine("------Date and Time Operations Menu-------");
 		Console.WriteLine("1- Display Current Date and Time");
 		Console.WriteLine("2- Add Days to Current Date");
-		Console.WriteLine("3- Calculate Age from Birthdate");
+		Console.WriteLine("3- Calculate Age from your birthdate");
 		Console.WriteLine("4- Go back to previous menu");
 		Console.WriteLine("=================");
 		Console.WriteLine("Enter 1,2,3 or 4");
@@ -114,20 +114,32 @@ public class assignment1
 			if (choice == "1" || choice == "2" || choice == "3" )
 			{
 				if (choice == "1") Console.WriteLine($"The current time and date is {now}");
-				else if (choice == "2") Console.WriteLine("How many Days you want to add?");
-				var AddDate = int.Parse(Console.ReadLine());
-				Console.WriteLine($"The Add Date of current Date is {DateTime.Now.AddDays(AddDate)}");
-				else if (choice == "3") Console.WriteLine("What is your birthday(yyyy/mm/dd)");
-				var BirthDate = DateTime.Parse(Console.ReadLine());
-				Console.WriteLine($"Your age is {DateTime.Now - BirthDate}");
-							
-				else
+				else if (choice == "2")
 				{
-					Console.WriteLine("Bad input, please try again");
+					Console.WriteLine("How many Days you want to add?");
+					var AddDate = int.Parse(Console.ReadLine());
+					Console.WriteLine($"The date afrer adding {AddDate} days is {now.AddDays(AddDate)}");
 				}
-				// if (choice =="4") Console.WriteLine($"The Divide of {num1}and{num2}is {num1/num2}");
+				else if (choice == "3")
+				{ 
+					Console.WriteLine("What is your birthday(yyyy/mm/dd)");
+					if (DateTime.TryParse(Console.ReadLine(), out DateTime BirthDate))
+					{
+						DateTime now1 = DateTime.Now;
+						int age = now1.Year - BirthDate.Year;
+						if (now1 < BirthDate.AddYears(age))
+						{
+							age--;
+						}
+						Console.WriteLine($"Your age is {age}");
+					}
+					else
+					{
+						Console.WriteLine("You did not enter a valid date");
+					}
+				}
 			}
-			else if (choice == "4") return;
+			else if (choice == "4"){Console.Clear(); return;}
 		}
 	}
 
@@ -142,14 +154,51 @@ public class assignment1
 		Console.WriteLine("Enter 1,2,3 or 4");
 		return Console.ReadLine();
 	}
+
 	private static void HandleText()
 	{
 		while (true)
 		{
 			var choice = HandleTextMenu();// running the sub menu
-			if (choice == "1") { SinglePlayer(); }
-			else if (choice == "2") { TwoPlayers(); }
-			else if (choice == "3") { Console.Clear(); return; }
+			if (choice == "1" || choice == "2" || choice == "3"|| choice == "4")
+			{
+				if (choice == "1")
+				{
+					// Console.WriteLine("Enter the text you want to reverse");
+					// string text1 = Console.ReadLine();
+					// char[] textR = text1.ToCharArray();
+					// Array.Reverse(textR);
+					// Console.WriteLine("Reversed text: " + new string(textR));
+					
+					Console.WriteLine("Enter the text you want to reverse:");
+					string text1 = Console.ReadLine() ?? ""; // 防止 null
+						if (string.IsNullOrWhiteSpace(text1))
+						{
+							Console.WriteLine("You did not enter any text. Please try again.");
+						}
+						else
+						{
+							char[] textR = text1.ToCharArray();
+							Array.Reverse(textR);
+							Console.WriteLine("Reversed text: " + new string(textR));
+						}
+				}
+				else if (choice == "2")
+				{
+					Console.WriteLine("Enter the text you want to Uppercase");
+					string text2 = Console.ReadLine();
+					string textU = text2.ToUpper();
+					Console.WriteLine("Upper text: " + textU);
+				}
+				else if (choice == "3")
+				{
+					Console.WriteLine("Enter the text you want to Lowercase");
+					string text3 = Console.ReadLine();
+					string textL = text3.ToLower();
+					Console.WriteLine("Lower text: " + textL);
+				}
+				else if (choice == "4") { Console.Clear(); return; }
+			}
 			else
 			{
 				Console.WriteLine("Bad input, please try again");
