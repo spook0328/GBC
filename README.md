@@ -2,9 +2,9 @@
 💁🏻 My name is Jui Hsin Wong<br>
 Web page view: [GBC GitHub io](https://spook0328.github.io/GBC/)
 
-
-1️⃣First semster:
----
+<details>
+  
+  <summary>1️⃣First semster:</summary>
 Mon<br>
 🤌Comp-1236 Fundamentals of Computer Logic(course)<br>
 🤌Comp-1238  Introduction to Data Management(course)<br>
@@ -25,9 +25,11 @@ Thu<br>
 
 Fri<br>
 🤌Commn 1000 English
+</details>
+<details>
 
-2️⃣Second semester:
----
+<summary>2️⃣Second semester: </summary>
+
 Mon<br>
 🤌Comp-1168 Database Management (course)<br>
 🤌Commn-2000 English<br>
@@ -48,8 +50,17 @@ Thu<br>
 Fri<br>
 🤌Comp-3044 Linux Essentials (course)<br>
 🤌Comp-1235 Intro to Full Stack Development (lab)<br>
-3️⃣4️⃣<br>
----
+</details>
+
+<details>
+  
+  <summary>3️⃣Third Semester </summary>
+</details>
+<details>
+
+   <summary>4️⃣Third Semester </summary>
+</details>
+
 <details>
 <summary>Tips for Linux code</summary>
   
@@ -67,7 +78,8 @@ Fri<br>
 
 <details>
 <summary>Shortcuts I frequently use: </summary>
-  ## Keyboard shortcuts
+  
+## Keyboard shortcuts
 - Ctrl-C (copy)
 - Ctrl-V (paste)
 - Ctrl-Z (undo)
