@@ -1,11 +1,7 @@
 # GBC
 💁🏻 My name is Jui Hsin Wong
+Web page view: [GBC GitHub io](https://spook0328.github.io/GBC/)
 
-Useful link
----
-[GBC GitHub Pages](https://pages.github.com/)<br>
-[GBC GitHub io](https://spook0328.github.io/GBC/) <br>
-[Linux operating system Commands](/cli.md)
 ---
 
 1️⃣First semster:
@@ -31,7 +27,7 @@ Thu<br>
 Fri<br>
 🤌Commn 1000 English
 
-2️⃣Second semestre:
+2️⃣Second semester:
 ---
 Mon<br>
 🤌Comp-1168 Database Management (course)<br>
@@ -78,4 +74,9 @@ Shortcuts I frequently use:
 - Ctrl-A (select all)
 - Win-D (show desktop)
 - Ctrl-Shift V (Only paste the word and the format)
+  ---
+  Useful link
+---
+[GBC GitHub Pages](https://pages.github.com/)<br>
+[Linux operating system Commands](/cli.md)
 </details>
