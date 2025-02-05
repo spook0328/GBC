@@ -1,8 +1,7 @@
 # GBC
-💁🏻 My name is Jui Hsin Wong
+💁🏻 My name is Jui Hsin Wong<br>
 Web page view: [GBC GitHub io](https://spook0328.github.io/GBC/)
 
----
 
 1️⃣First semster:
 ---
@@ -64,6 +63,7 @@ Fri<br>
 - ( : Left parenthesis
 - ) : Right parenthesis
 - ## Keyboard shortcuts
+  <br>
 ---
 Shortcuts I frequently use: 
 - Ctrl-C (copy)
@@ -73,8 +73,8 @@ Shortcuts I frequently use:
 - Shortcuts I would like to start using: 
 - Ctrl-A (select all)
 - Win-D (show desktop)
-- Ctrl-Shift V (Only paste the word and the format)
-  ---
+- Ctrl-Shift V (Only paste the word and the format)<br>
+---
   Useful link
 ---
 [GBC GitHub Pages](https://pages.github.com/)<br>
