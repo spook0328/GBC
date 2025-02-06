@@ -8,7 +8,8 @@ class Program
         //week2.week2Main();
         //week3.week3Main();
         //week4.week4Main();
-        assignment1.MainMenu();
+        //assignment1.MainMenu();
+        
 
     }
 }
