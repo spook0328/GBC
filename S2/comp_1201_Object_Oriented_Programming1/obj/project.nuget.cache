@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qXfcbjL51yY=",
+  "dgSpecHash": "Dw7mYM/AWNE=",
   "success": true,
-  "projectFilePath": "/Users/ericwong/Desktop/GBC/S2/comp_1201_Object_Oriented_Programming1/comp_1201_Object_Oriented_Programming1.csproj",
-  "expectedPackageFiles": [
-    "/Users/ericwong/.nuget/packages/microsoft.netcore.app.ref/8.0.11/microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
-    "/Users/ericwong/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.11/microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
-    "/Users/ericwong/.nuget/packages/microsoft.netcore.app.host.osx-x64/8.0.11/microsoft.netcore.app.host.osx-x64.8.0.11.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\GBC\\S2\\comp_1201_Object_Oriented_Programming1\\comp_1201_Object_Oriented_Programming1.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

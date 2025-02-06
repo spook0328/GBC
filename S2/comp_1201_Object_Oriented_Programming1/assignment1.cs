@@ -38,7 +38,7 @@ public class assignment1
 		Console.WriteLine("ID: 101559700");
 		Console.WriteLine("=================");
 		Console.WriteLine("Enter 1 go to previous menu");
-			return Console.ReadLine();
+		return Console.ReadLine(); ;
 	}
 
 	public static void Information(){
@@ -71,17 +71,25 @@ public class assignment1
 		{
 			var choice = DateTimeMenu();
 			DateTime now = DateTime.Now;
-			if (choice == "1" || choice == "2" || choice == "3" )
+			if (choice == "1" || choice == "2" || choice == "3")
 			{
 				if (choice == "1") Console.WriteLine($"The current time and date is {now}");
 				else if (choice == "2")
 				{
 					Console.WriteLine("How many Days you want to add?");
-					var AddDate = int.Parse(Console.ReadLine());
+					string input = Console.ReadLine();
+					//var AddDate = int.Parse(Console.ReadLine());
+
+					if (int.TryParse(input, out int AddDate)) 
+					{
 					Console.WriteLine($"The date afrer adding {AddDate} days is {now.AddDays(AddDate)}");
+					}
+					else {
+						Console.WriteLine("Bad input, please try again");
+						 }
 				}
 				else if (choice == "3")
-				{ 
+				{
 					Console.WriteLine("What is your birthday(yyyy/mm/dd)");
 					if (DateTime.TryParse(Console.ReadLine(), out DateTime BirthDate))
 					{
@@ -99,7 +107,10 @@ public class assignment1
 					}
 				}
 			}
-			else if (choice == "4"){Console.Clear(); return;}
+			else if (choice == "4") { Console.Clear(); return; }
+			else {
+				Console.WriteLine("Bad input, please try again"); 
+			}
 		}
 	}
 
@@ -124,14 +135,8 @@ public class assignment1
 			{
 				if (choice == "1")
 				{
-					// Console.WriteLine("Enter the text you want to reverse");
-					// string text1 = Console.ReadLine();
-					// char[] textR = text1.ToCharArray();
-					// Array.Reverse(textR);
-					// Console.WriteLine("Reversed text: " + new string(textR));
-					
 					Console.WriteLine("Enter the text you want to reverse:");
-					string text1 = Console.ReadLine() ?? ""; // 防止 null
+					string text1 = Console.ReadLine() ?? ""; //Prevent Null, A ?? B, if A empty use B
 						if (string.IsNullOrWhiteSpace(text1))
 						{
 							Console.WriteLine("You did not enter any text. Please try again.");
@@ -146,16 +151,30 @@ public class assignment1
 				else if (choice == "2")
 				{
 					Console.WriteLine("Enter the text you want to Uppercase");
-					string text2 = Console.ReadLine();
-					string textU = text2.ToUpper();
-					Console.WriteLine("Upper text: " + textU);
+					string text2 = Console.ReadLine()??"";
+					if (string.IsNullOrWhiteSpace(text2))
+					{
+						Console.WriteLine("You did not enter any text. Please try again.");
+					}
+					else
+					{
+						string textU = text2.ToUpper();
+						Console.WriteLine("Upper text: " + textU);
+					}
 				}
 				else if (choice == "3")
 				{
 					Console.WriteLine("Enter the text you want to Lowercase");
-					string text3 = Console.ReadLine();
-					string textL = text3.ToLower();
-					Console.WriteLine("Lower text: " + textL);
+					string text3 = Console.ReadLine()??"";
+					if (string.IsNullOrWhiteSpace(text3))
+					{
+						Console.WriteLine("You did not enter any text. Please try again.");
+					}
+					else
+					{
+						string textL = text3.ToLower();
+						Console.WriteLine("Lower text: " + textL);
+					}
 				}
 				else if (choice == "4") { Console.Clear(); return; }
 			}
