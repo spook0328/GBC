@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task2</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      //Function Substring()
+      let userName = "JuiHsin Wong";
+      let userName1 = "JuiHsin.Wong";
+      //First Way
+      //syntax => substring(a,b):
+      // a is the start point and b is the how many next chars you want to display.
+      console.log("Last Name: ", userName.substring(7, 120));
+      console.log("First Name: ", userName.substring(0, 7));
+      //Second Way(Index) => indexOf("symbol of separation")
+      console.log("FLast  Name: ", userName.indexOf(" ") + 1);
+      console.log("Last Name: ", userName1.indexOf(".") + 1);
+      //Lower and Upper case
+      console.log("Upper Name :", userName.toUpperCase());
+      console.log("lower Name :", userName.toLowerCase());
+      //function = ???
+      //syntax => function abc(arg/input){
+      //code goes here
+      // return result = variable/output
+      //}
+      function getFirstName(userName) {
+        let firstName = userName.substring(0, 6);
+        console.log("firstName: ", firstName);
+        return firstName;
+      }
+      getFirstName("ABCDEf DEF"); //ABCDEf
+      getFirstName("George Brown"); // George
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task3</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      // JSON objects are enclosed in curly braces {}.
+      //JSON object ={}
+      let weatherStr =
+        '{ "Mon": "Rainy","Tue": "Windy", "Wed": "Rainy", "Thu": "Windy", "Fri": "Sun"}';
+      console.log("JSON: ", weatherStr);
+
+      //for converting an Object (JSON.parse(nameofvar))
+      console.log("JSON Parse: ", JSON.parse(weatherStr));
+
+      let wjson = JSON.parse(weatherStr);
+      console.log("Weather of Friday ", wjson.Fri);
+    </script>
+  </head>
+  <body></body>
+</html>
