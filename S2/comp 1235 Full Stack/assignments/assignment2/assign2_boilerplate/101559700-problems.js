@@ -14,3 +14,12 @@ function _findNumOfDigits(arg) {
   }
   return count;
 }
+
+function _surplus(str) {
+  let inner = String(str);
+  return inner;
+}
+
+function _strNumbers(array) {
+  let numInstr = [array];
+}

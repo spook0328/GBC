@@ -21,6 +21,17 @@ describe("_findNumOfDigits", function () {
   });
 });
 
+//Q2
+describe("__surplus", function () {
+  it("returns the original str argument", function () {
+    expect(_surplus("orange")).to.equal("orange");
+    expect(_surplus("pear")).to.equal("pear");
+    expect(_surplus("")).to.equal("");
+  });
+});
+
+//Q3
+
 /***************************************************************************************
 describe('yourFunctionName', () =>  {
     it('please enter your function description here',  () => {
