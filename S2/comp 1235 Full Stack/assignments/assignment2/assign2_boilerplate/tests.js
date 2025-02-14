@@ -31,7 +31,11 @@ describe("__surplus", function () {
 });
 
 //Q3
-
+describe("_strNumbers", function () {
+  it("returns a new array that contains the string and num or sreturns an empty array", function () {
+    expect(_strNumbers[("1a", "a", "2b", "b")]).to.equal(["1a", "2b"]);
+  });
+});
 /***************************************************************************************
 describe('yourFunctionName', () =>  {
     it('please enter your function description here',  () => {

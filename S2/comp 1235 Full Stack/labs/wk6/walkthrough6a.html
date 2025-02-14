@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task1</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      //1. Function Expressions
+      let print = function (start, stop) {
+        //logic here
+        str = " ";
+        for (; start <= stop; start++) {
+          str += start + ",";
+        }
+        return str;
+      };
+      console.log(print(1, 10));
+
+      //2. Arrow Functions
+      let foo = () => {
+        return "hello";
+      };
+      console.log(foo()); //hello
+
+      // if only one statement
+      let foo1 = () => "hello1";
+      console.log(foo1()); //hello
+
+      //has args in a funciton
+      let foo2 = (name) => {
+        return "Hello " + name;
+      };
+      console.log(foo2("Wong")); //Hello Wong
+
+      //3. Call back functions
+      let printName = (name) => {
+        return name;
+      };
+      let printAge = (age) => {
+        return age;
+      };
+
+      function greet(name, age, callbackName, callbackAge) {
+        return "Hello, " + callbackName(name) + " You are " + callbackAge(age);
+      }
+      //calling of call back funciton
+      //console.log(greet("WongCallback", printName));
+      console.log(greet("WongCallback", 20, printName, printAge));
+    </script>
+  </head>
+  <body></body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Task2</title>
+    <meta name="author" content="Eric Wong" />
+    <script>
+      //1. strict equlity (===)
+      function isTen(num) {
+        return num === 10;
+      }
+      console.log(isTen(10)); //t
+      console.log(isTen(1)); //f
+      console.log(isTen("0")); //f
+      console.log("=========");
+      //2. default parameters
+      function sum(n1 = 10, n2) {
+        return "Sum is " + (parseInt(n1) + parseInt(n2));
+        //要增加字串需要增加parseInt
+      }
+      console.log(sum());
+      console.log(sum(5, 7));
+      console.log(sum(7, 7));
+      console.log("=========");
+
+      //3. rest parameters (...)/ seprator opersator
+      const printArray = (...args) => console.log(args);
+      console.log(1, 2, 3, 4);
+      console.log("a", "b", "c");
+      console.log();
+    </script>
+  </head>
+  <body></body>
+</html>

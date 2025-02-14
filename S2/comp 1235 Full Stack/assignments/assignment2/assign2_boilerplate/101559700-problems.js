@@ -21,5 +21,5 @@ function _surplus(str) {
 }
 
 function _strNumbers(array) {
-  let numInstr = [array];
+  return array.filter((str) => /\d/.test(str));
 }
