@@ -3,15 +3,9 @@
 const chai = window.chai;
 const expect = chai.expect;
 
-describe("_checkS", () => {
-  it("Check the index of * in the password", () => {
-    expect(_checkS("ibntij53*")).to.deep.equal(8);
-  });
-});
-
 //Q1
-describe("_findNumOfDigits", function () {
-  it("Should returns the count of the number of digits back to the caller", function () {
+describe("_findNumOfDigits", () => {
+  it("Should returns the count of the number of digits back to the caller", () => {
     expect(_findNumOfDigits(1000)).to.equal(4);
     expect(_findNumOfDigits("abcd")).to.equal(0);
     expect(_findNumOfDigits(12)).to.equal(2);
@@ -22,8 +16,8 @@ describe("_findNumOfDigits", function () {
 });
 
 //Q2
-describe("__surplus", function () {
-  it("returns the original str argument", function () {
+describe("__surplus", () => {
+  it("returns the original str argument", () => {
     expect(_surplus("orange")).to.equal("orange");
     expect(_surplus("pear")).to.equal("pear");
     expect(_surplus("")).to.equal("");
@@ -31,15 +25,36 @@ describe("__surplus", function () {
 });
 
 //Q3
-describe("_strNumbers", function () {
-  it("returns a new array that contains the string and num or sreturns an empty array", function () {
-    expect(_strNumbers[("1a", "a", "2b", "b")]).to.equal(["1a", "2b"]);
+describe("_strNumbers", () => {
+  it("returns a new array that contains the string and num or sreturns an empty array", () => {
+    expect(_strNumbers(["1a", "a", "2b", "b"])).to.deep.equal(["1a", "2b"]);
+    expect(_strNumbers(["abc", "abc10"])).to.deep.equal(["abc10"]);
+    expect(_strNumbers(["abc", "ab10c", "a10bc", "bcd"])).to.deep.equal([
+      "ab10c",
+      "a10bc",
+    ]);
+    expect(_strNumbers(["this is a test", "test1"])).to.deep.equal(["test1"]);
   });
 });
-/***************************************************************************************
-describe('yourFunctionName', () =>  {
-    it('please enter your function description here',  () => {
-        expect(yourFunctionName(parameters)).to.deep.equal(expected_result)
-    })
-})
- ***************************************************************************************/
+
+//Q4
+describe("_determineClassGrading", () => {
+  it("returns the array containing the number of passing grades, the number of failing grades, and the overall averages of the grades, respectively, back to the caller", () => {
+    expect(_determineClassGrading([50, 51, 80, 45])).to.deep.equal([
+      3, 1, 56.5,
+    ]);
+    expect(_determineClassGrading([35, 45, 25, 10, 6, 33])).to.deep.equal([
+      0, 6, 25.7,
+    ]);
+    expect(_determineClassGrading([80, 90])).to.deep.equal([2, 0, 85.0]);
+  });
+});
+
+//Q5
+describe("_moveCapitalLetters", () => {
+  it("returns the uppercase letter and lowercase letters", () => {
+    expect(_moveCapitalLetters("hApPy")).to.equal("APhpy");
+    expect(_moveCapitalLetters("moveMENT")).to.equal("MENTmove");
+    expect(_moveCapitalLetters("shOrtCAKE")).to.equal("OCAKEshrt");
+  });
+});
