@@ -3,7 +3,6 @@
 const chai = window.chai;
 const expect = chai.expect;
 
-//Q1
 describe("_findNumOfDigits", () => {
   it("Should returns the count of the number of digits back to the caller", () => {
     expect(_findNumOfDigits(1000)).to.equal(4);
@@ -15,7 +14,6 @@ describe("_findNumOfDigits", () => {
   });
 });
 
-//Q2
 describe("__surplus", () => {
   it("returns the original str argument", () => {
     expect(_surplus("orange")).to.equal("orange");
@@ -24,7 +22,6 @@ describe("__surplus", () => {
   });
 });
 
-//Q3
 describe("_strNumbers", () => {
   it("returns a new array that contains the string and num or sreturns an empty array", () => {
     expect(_strNumbers(["1a", "a", "2b", "b"])).to.deep.equal(["1a", "2b"]);
@@ -37,7 +34,6 @@ describe("_strNumbers", () => {
   });
 });
 
-//Q4
 describe("_determineClassGrading", () => {
   it("returns the array containing the number of passing grades, the number of failing grades, and the overall averages of the grades, respectively, back to the caller", () => {
     expect(_determineClassGrading([50, 51, 80, 45])).to.deep.equal([
@@ -50,7 +46,6 @@ describe("_determineClassGrading", () => {
   });
 });
 
-//Q5
 describe("_moveCapitalLetters", () => {
   it("returns the uppercase letter and lowercase letters", () => {
     expect(_moveCapitalLetters("hApPy")).to.equal("APhpy");
