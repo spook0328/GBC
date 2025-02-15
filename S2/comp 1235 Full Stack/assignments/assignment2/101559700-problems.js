@@ -12,8 +12,10 @@ function _findNumOfDigits(arg) {
 }
 
 function _surplus(str) {
-  let index = String(str);
-  return index;
+  function inner() {
+    return str;
+  }
+  return inner;
 }
 
 function _strNumbers(array) {

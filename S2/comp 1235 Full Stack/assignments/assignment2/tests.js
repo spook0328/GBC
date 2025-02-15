@@ -16,9 +16,9 @@ describe("_findNumOfDigits", () => {
 
 describe("_surplus", () => {
   it("returns the original str argument", () => {
-    expect(_surplus("orange")).to.equal("orange");
-    expect(_surplus("pear")).to.equal("pear");
-    expect(_surplus("")).to.equal("");
+    expect(_surplus("orange")()).to.equal("orange");
+    expect(_surplus("pear")()).to.equal("pear");
+    expect(_surplus("")()).to.equal("");
   });
 });
 
