@@ -4,10 +4,7 @@ using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
-public class lab4
-{
-	public lab4Main()
+	public class Student
 	{
         private int id;
         private int birthYear;
@@ -15,21 +12,23 @@ public class lab4
         public string firstName;
         public  string lastName;
 
-    public  student() { }
+        public  Student() { }
+        // 無參數建構，允許您在不提供任何參數的情況下創建 Student 物件。
+        public  Student (int id, string firstName, string lastName, string major) 
+        {
+            this.id = id;
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.major = major; 
+        }
+        
+        public int getAge()
+        {
+            return DateTime.Now.Year - birthYear;
+        }
+        public override string ToString()
+        {
+            return $"ID: {id}, Name:{firstName} {lastName}, Major:{major}, Age:{getAge()}";
+        }
+    }
 
-    public  student(int id, string firstName, string lastName, string major)
-    {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.major = major;
-    }
-     public int getAge()
-    {
-        return DateTime.Now.Year - birthYear;
-    }
-     public override string ToString(){
-        return $"ID: {id}, Name:{firstName} {lastName}, Major:{major}, Age:{getAge()}";
-    }
-    }
-}

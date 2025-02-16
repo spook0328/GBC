@@ -3,9 +3,9 @@ using System.Globalization;
 
 namespace ConsoleApp1;
 
-class Program
+class Program1
 {
-    static void Main()
+    static void week5Main()
     {
         InputName();
         // return;

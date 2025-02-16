@@ -49,7 +49,7 @@ public class practice
     static string Name = "JuiHsinWong";
     static int Age = 16;
 
-    public static void Main()
+    public static void PracticeMain()
     {
         CheckAge();
         ProgramContinue();
