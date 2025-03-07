@@ -19,7 +19,7 @@ console.log(a);
 
 //No elements found, Neither empty
 let without_length = new Array(5);
-console.log(without_length);
+console.log(without_length); // 輸出 [empty × 5]，表示建立了一個長度為 5 的空陣列
 
 //other way
 let b = []; //empty array => empty element exist
@@ -52,7 +52,7 @@ function outer(d) {
 outer(); //within function
 console.log("GBC"); //D is a Globar var
 console.log("C: " + c);
-console.log("b: " + b);
+console.log("b: " + b); //empty bcoz local scope
 
 //3. Create a Class named "Customer"
 //SYNYAX => class Name_of_class{}
@@ -77,15 +77,27 @@ console.log("Customer2: ", cus2);
 function SumandAverage(numbers, callback) {
   let sum = 0;
   for (i = 0; i < numbers.length; i++) {
-    sum += [i];
+    sum += numbers[i];
   }
   let avg = sum / numbers.length;
   callback(sum, avg);
 }
 // 定義回呼函式 Call back
-function printResult(sum, avg) {
-  console.log("Total Sum:", sum);
-  console.log("Average:", avg);
+function logSumavg(sum, avg) {
+  console.log("Sum:", sum);
+  console.log("Avg:", avg);
 }
+SumandAverage([1, 2], logSumavg);
 
-SumandAverage(1, 2);
+//5. JSON
+const person = {
+  name: "Wong",
+  age: 21,
+  city: "Taipei",
+};
+//strignify => converts the
+const con_string = JSON.stringify(person);
+console.log(con_string);
+//converts the json to object => parse
+const obj_json = JSON.parse(con_string);
+console.log(obj_json);
