@@ -9,7 +9,8 @@ class Program
         //week3.week3Main();
         //week4.week4Main();
         //Program.week5Main();
-        //assignment1.MainMenu();   
+        //assignment1.MainMenu(); 
+        week10.week10Main();
     }
     
     //week6寫的
