@@ -52,3 +52,10 @@ const result_string = sentence.split(" ").reduce((accumulator, word) => {
 }, {});
 
 console.log("String: ", result_string);
+console.log(sentence.split(" "));
+
+//--------------------------------------------
+//3. map()
+const numbers4 = [1, 2, 3, 4, 5];
+const mapped_num = numbers4.map((num) => num * 2);
+console.log("Mapping numbers: ", mapped_num);
