@@ -44,20 +44,48 @@ describe("indexMultipler", () => {
     expect(indexMultipler([15, 16, -100, 50])).to.equal(-34);
   });
 });
-/***************************************************************************************
- Testing TEMPLATES
 
- //To test a regular function
- describe('yourFunctionName', () =>  {
-    it('please enter your function description here',  () => {
-        expect(yourFunctionName(parameters)).to.deep.equal(expected_result);
-    })
-})
+describe("filteredJSON", () => {
+  it("should return 40", () => {
+    expect(filteredJSON([{ id: 1, u: " batman" }])).to.deep.equal([]);
+  });
+  it("should return -2", () => {
+    expect(filteredJSON([{ id: 11, u: "spidey" }])).to.deep.equal([
+      { id: 11, u: "spidey" },
+    ]);
+  });
+  it("should return -34", () => {
+    expect(
+      filteredJSON([
+        { id: 1, u: "batman" },
+        { id: 11, u: "spidey" },
+      ])
+    ).to.deep.equal([{ id: 11, u: "spidey" }]);
+  });
+});
 
- //To test async/await functions
- describe('yourFunctionName()', () =>  {
-    it('The async/await function description',  async () => {
-          expect(await yourFunctionName()).to.deep.equal(expected_result);
-    })
-})
- ***************************************************************************************/
+describe("breakAway", () => {
+  it("should return [2, 3], [4, 5]", () => {
+    expect(breakAway([2, 3, 4, 5], 2)).to.deep.equal([
+      [2, 3],
+      [4, 5],
+    ]);
+  });
+  it("should return [2,3],[4,5],[6] ", () => {
+    expect(breakAway([2, 3, 4, 5, 6], 2)).to.deep.equal([[2, 3], [4, 5], [6]]);
+  });
+  it("should return [2,3,4],[5,6,7]", () => {
+    expect(breakAway([2, 3, 4, 5, 6, 7], 3)).to.deep.equal([
+      [2, 3, 4],
+      [5, 6, 7],
+    ]);
+  });
+  it("should return  [2],[3],[4],[5]", () => {
+    expect(breakAway([2, 3, 4, 5], 1)).to.deep.equal([[2], [3], [4], [5]]);
+  });
+  it("should return [2,3,4,5,6,7]", () => {
+    expect(breakAway([2, 3, 4, 5, 6, 7], 7)).to.deep.equal([
+      [2, 3, 4, 5, 6, 7],
+    ]);
+  });
+});

@@ -37,6 +37,19 @@ const indexMultipler = (array) => {
     return sum + value * index;
   }, 0);
 };
-function filteredJSON([array]) {}
 
-function breakAway(array, n) {}
+const filteredJSON = (array) => {
+  const result = array.filter((element) => {
+    const first_char = element.u.charAt(0).toUpperCase();
+    return element.id > 10 && first_char >= "M" && first_char <= "Z";
+  });
+  return result;
+};
+
+const breakAway = function (array, n) {
+  let divide = [];
+  for (let i = 0; i < array.length; i += n) {
+    divide.push(array.slice(i, i + n));
+  }
+  return divide;
+};
