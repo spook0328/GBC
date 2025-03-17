@@ -33,15 +33,15 @@ describe("calculateSalary", () => {
   });
 });
 
-describe("indexMultipler", () => {
+describe("indexMultiplier", () => {
   it("should return 40", () => {
-    expect(indexMultipler([1, 2, 3, 4, 5])).to.equal(40);
+    expect(indexMultiplier([1, 2, 3, 4, 5])).to.equal(40);
   });
   it("should return -2", () => {
-    expect(indexMultipler([-3, 0, 8, -6])).to.equal(-2);
+    expect(indexMultiplier([-3, 0, 8, -6])).to.equal(-2);
   });
   it("should return -34", () => {
-    expect(indexMultipler([15, 16, -100, 50])).to.equal(-34);
+    expect(indexMultiplier([15, 16, -100, 50])).to.equal(-34);
   });
 });
 

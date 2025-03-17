@@ -32,7 +32,7 @@ const calculateSalary = (array) => {
   }, 0);
 };
 
-const indexMultipler = (array) => {
+const indexMultiplier = (array) => {
   return array.reduce((sum, value, index) => {
     return sum + value * index;
   }, 0);
