@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("comp_1201_Object_Oriented_Programming1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bbcff4806ebdff91e562d8a30cb89beee86d1b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7df962b1a55dcc99b48041066a36ef69a2d1ce09")]
 [assembly: System.Reflection.AssemblyProductAttribute("comp_1201_Object_Oriented_Programming1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("comp_1201_Object_Oriented_Programming1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
