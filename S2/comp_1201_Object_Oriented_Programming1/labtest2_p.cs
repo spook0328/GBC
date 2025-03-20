@@ -21,6 +21,6 @@ public class product
     public void DisplayProduct()
     {
         Console.WriteLine($"ID: {productId}, Name: {name}, Price: {price:C}"); 
-        // Price: C代表貨幣格式
+        // Price: 
     }
 }
