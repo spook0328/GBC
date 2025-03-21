@@ -15,45 +15,47 @@ class Program
     }
 }
 
-/*labtest2
-static void Main(string[] args)
-{
-    Car [] garage = new Car[3];
-    garage[0] = new Car();
-    garage[1] = new Car("Civic", "Honda", 25000);
-    garage[2] = new Car("Model S", "Tesla", 79999, new double[] { 120, 115, 130 });
+/* labtest2
 
-    foreach (var car in garage)
-    {
-        Console.WriteLine(car.ToString());
-        Console.WriteLine($"Average Fuel Efficiency: {car.GetAverageFuelEfficiency()} MPG\n");
-    }
-
-    // 額外功能：按價格排序
-    Array.Sort(garage, (c1, c2) => c1.Price.CompareTo(c2.Price));
-    Console.WriteLine("Cars sorted by price:");
-    foreach (var car in garage)
-    {
-        Console.WriteLine(car.ToString());
-    }
-}
-class Program
-{
     static void Main(string[] args)
     {
-        Car[] gararge = new Car[3];
-        Car car1 = new Car();
-        Car car2 = new Car("abc", "def", 2000);
-        Car car3 = new Car("abc", "def", 2000,[2,0]);
-        
-        Console.WriteLine(car1.ToString());
-        Console.WriteLine(car2.ToString());
-        Console.WriteLine(car3.ToString());
+        Car [] garage = new Car[3];
+        garage[0] = new Car();
+        garage[1] = new Car("Civic", "Honda", 25000);
+        garage[2] = new Car("Model S", "Tesla", 79999, new double[] { 120, 115, 130 });
 
+        foreach (var car in garage)
+        {
+            Console.WriteLine(car.ToString());
+            Console.WriteLine($"Average Fuel Efficiency: {car.GetAverageFuelEfficiency()} MPG\n");
+        }
+
+        // 額外功能：按價格排序
+        Array.Sort(garage, (c1, c2) => c1.Price.CompareTo(c2.Price));
+        Console.WriteLine("Cars sorted by price:");
+        foreach (var car in garage)
+        {
+            Console.WriteLine(car.ToString());
+        }
     }
-}*/
-/*
-  lab_test2 practice
+    //我寫的
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Car[] gararge = new Car[3];
+            Car car1 = new Car();
+            Car car2 = new Car("abc", "def", 2000);
+            Car car3 = new Car("abc", "def", 2000,[2,0]);
+            
+            Console.WriteLine(car1.ToString());
+            Console.WriteLine(car2.ToString());
+            Console.WriteLine(car3.ToString());
+
+        }
+    }
+*/
+/*lab_test2 practice
       static void Main(string[] args)
       {
           Product[] inventory = new Product[5];
@@ -116,8 +118,7 @@ class Program
            Console.WriteLine(student1.ToString());
            Console.WriteLine(student2.ToString());
        }*/
-/*
- week9 lab1 array
+/* week9 lab1 array
     static void Main(string[] args)
     {
    week9.Employee employee = new week9.Employee(1, "Jui Wong","1 Dundas we st, Toronto, ON");
@@ -152,8 +153,7 @@ class Program
         }
     }
  */
-/*
- week9 lab2
+/* week9 lab2
    static void Main(string[] args)
    {
        lab5.Person p1 = new lab5.Person("John",12);
