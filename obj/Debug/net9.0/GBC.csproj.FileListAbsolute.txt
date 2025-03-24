@@ -1,5 +1,0 @@
-/Users/ericwong/Desktop/GBC/obj/Debug/net9.0/GBC.GeneratedMSBuildEditorConfig.editorconfig
-/Users/ericwong/Desktop/GBC/obj/Debug/net9.0/GBC.AssemblyInfoInputs.cache
-/Users/ericwong/Desktop/GBC/obj/Debug/net9.0/GBC.AssemblyInfo.cs
-/Users/ericwong/Desktop/GBC/obj/Debug/net9.0/GBC.csproj.CoreCompileInputs.cache
-/Users/ericwong/Desktop/GBC/obj/Debug/net9.0/GBC.sourcelink.json
