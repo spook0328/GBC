@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jui Hsin Wong - Tasks</title>
+    <meta name="author" content="Eric Wong" />
+    <!-- Call the js file externally -->
+    <script src="walkthrough12a.js"></script>
+    <script>
+      console.log("GBC");
+    </script>
+    <!-- Typescript (.ts) -->
+    <script src="https://cdn.jsdelivr.net/npm/typescript@5.3.3"></script>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/text-typescript@1.3.0"
+    ></script>
+    <script type="text/typescript">
+      console.log("GBC")
+
+      // 1. addition of numbers
+      function add (a:number, b:number): number{
+        return a+b;
+      }
+      console.log("Add: ", add(5,10));
+
+      //2. Interface
+      interface Walker{
+        readonly age:number, //readonly
+        do_walk(age: number, ):string
+      }
+
+      //3. Example => Create a class Mammal making
+      //use of access modifiers
+      //1.public, 2. Private, 3. Protected
+      class mammal{
+
+        //define the vars
+        public height: number;
+        protected dinner: string;
+        privat pocket_money: number;
+
+        //using
+        constructor(p_height:number,p_dinner:string,p_money:number){
+          //Keyword => this is used to assign vars
+          this.height = p_height;
+          this.dinner = p_dinner; // not display in m1 because it is a protected proerty
+          this.pocket_money = p_money;  // not display in m1 because it is a private proerty
+        }
+      }
+      const m1 = new mammal(7.1, "Meat", 2000);
+      console.log(m1); // All elements will show on run time
+    </script>
+  </head>
+  <body></body>
+</html>
