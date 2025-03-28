@@ -1,0 +1,11 @@
+Bill_Payment_History_id,amount_paid,payer,note,billing_id
+1,50,patient,"Paid by credit card",1
+2,50,patient,"Paid by credit card",2
+3,50,patient,"Paid by credit card",3
+4,50,patient,"Paid by credit card",4
+5,50,patient,"Paid by credit card",5
+6,50,patient,"Paid by credit card",6
+7,50,patient,"Paid by credit card",7
+8,50,patient,"Paid by credit card",8
+9,50,patient,"Paid by credit card",9
+10,50,patient,"Paid by credit card",10
