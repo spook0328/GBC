@@ -3,7 +3,7 @@
 class Program
 {
     //lab
-    static void Main(string[] args)
+    static void Main1(string[] args)
     {
         //week1.week1Main();
         //week2.week2Main();
