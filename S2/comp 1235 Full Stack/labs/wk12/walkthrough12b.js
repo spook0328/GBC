@@ -7,7 +7,7 @@ function Img(title, src, content) {
 
 //step 2: Create the Markup
 Img.prototype.makeMarkup = function () {
-  return `<div> <img src ="＄{this.src}" 
+  return `<div> <img src ="${this.src}" 
     content ="${this.content}"
     title = "${this.title}"
     >
