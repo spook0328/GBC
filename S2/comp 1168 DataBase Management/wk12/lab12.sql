@@ -6,40 +6,39 @@ FROM ap.vendors
 ORDER BY vendor_name;
 
 -- Q2
-SELECT * FROM vndr_view3;
+SELECT * FROM vndr_view;
 
--- 3a: 建立視圖 vndr_view2，篩選 vendor_state = 'CA' 的資料
+-- 3a
 CREATE VIEW ex.vndr_view2 AS 
 SELECT * FROM ex.vndr_view
 WHERE vendor_state = 'CA';
 
--- 3b: 建立視圖 vndr_view3，篩選 vendor_phone 為 NULL 的資料
+-- 3b
 CREATE VIEW ex.vndr_view3 AS
 SELECT vendor_id, vendor_name, vendor_state, vendor_phone
-FROM ap.vendors  -- 修正 ap. vendors → ap.vendors (移除空格)
+FROM ap.vendors  
 WHERE vendor_phone IS NULL;
 
--- 4: 更新 ex.vndr_view 中的 vendor_phone
+-- 4
 UPDATE ex.vndr_view
 SET vendor_phone = '416-415-5000'
 WHERE vendor_name LIKE 'ASC Signs';
 
--- 查詢是否成功更新
 SELECT * FROM ap.vendors 
 WHERE vendor_name LIKE 'ASC Signs'; 
 
--- 5: 重新建立 vndr_view3，確保數據更新時仍符合條件 (vendor_phone 為 NULL)
+-- 5
 CREATE OR REPLACE VIEW ex.vndr_view3 AS
 SELECT vendor_id, vendor_name, vendor_state, vendor_phone
 FROM ap.vendors
 WHERE vendor_phone IS NULL
 WITH CHECK OPTION;
 
--- 6: 查詢 vendor_name 為 'Ingram' 的資料
-SELECT * FROM ex.vndr_view3  -- 修正 ex,vndr_view3 → ex.vndr_view3
+-- 6
+SELECT * FROM ex.vndr_view3  
 WHERE vendor_name = 'Wong';
 
--- 6: 更新 vndr_view3，修正語法錯誤
+-- 6
 UPDATE ex.vndr_view3
 SET vendor_phone = '416-415-5000'
 WHERE vendor_name = 'Wong';
